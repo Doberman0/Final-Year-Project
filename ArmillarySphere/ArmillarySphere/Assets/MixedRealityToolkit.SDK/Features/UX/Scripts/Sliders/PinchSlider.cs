@@ -32,7 +32,11 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
         }
 
+        // The armillary sphere we're looking to manipulate
         public GameObject armillary_sphere;
+
+        // The value to be displayed
+        public GameObject value_UI;
 
         [Range(0, 1)]
         [SerializeField]
@@ -52,6 +56,10 @@ namespace Microsoft.MixedReality.Toolkit.UI
                     armillary_sphere.transform.localEulerAngles.x,
                     SliderValue * 360,
                     armillary_sphere.transform.localEulerAngles.z);
+
+                // Update the text value so that the user can see the rotation
+                // This probably should not be here, but I have found a work around so it is ok for now...
+                value_UI.GetComponent<TextMesh>().text = ((int)(SliderValue * 360)).ToString() + "°";
 
                 Debug.Log(SliderValue);
             }
@@ -151,6 +159,9 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
             InitializeSliderThumb();
             OnValueUpdated.Invoke(new SliderEventData(sliderValue, sliderValue, null, this));
+
+            // Initialise the text value so that the user can see the rotation
+            value_UI.GetComponent<TextMesh>().text = "0°";
         }
 
 
