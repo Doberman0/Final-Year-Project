@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce40c71eb12d8544ba2492ca90f8f8e, type: 3}
+  m_Name: FictionalSky
+  m_EditorClassIdentifier: 
+  hoursPerDay: 4
+  minutesPerHour: 15
+  secondsPerMinute: 60
+  monthDays: 05000000050000000500000005000000
+  hasLeapYear: 1
+  leapYearInterval: 4
+  leapYearIntervalException: 100
+  leapYearIntervalNotException: 400
+  monthOfLeapDay: 2
+  obliquityOfEcliptic: 50
+  atmosphericScatteringWavelength: {x: 0.65, y: 0.57, z: 0.475}
+  planetaryRadius: 6371
+  atmosphereDepth: 100

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce40c71eb12d8544ba2492ca90f8f8e, type: 3}
+  m_Name: MarsSky
+  m_EditorClassIdentifier: 
+  hoursPerDay: 3
+  minutesPerHour: 493
+  secondsPerMinute: 60
+  monthDays: 1c0000001c0000001c0000001c0000001c0000001b0000001c0000001c0000001c0000001c0000001c0000001b0000001c0000001c0000001c0000001c0000001c0000001b0000001c0000001c0000001c0000001c0000001c0000001b000000
+  hasLeapYear: 0
+  leapYearInterval: 4
+  leapYearIntervalException: 100
+  leapYearIntervalNotException: 400
+  monthOfLeapDay: 1
+  obliquityOfEcliptic: 25.19
+  atmosphericScatteringWavelength: {x: 0.33, y: 0.3, z: 0.3}
+  planetaryRadius: 3389
+  atmosphereDepth: 75

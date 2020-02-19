@@ -249,8 +249,6 @@ struct List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D;
 struct List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3;
 // System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/SingleRange>
 struct List_1_t560DEF47D3A9D65449EE74779102DDD3BF7B6724;
-// System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode>
-struct List_1_tA5CDE89671B691180A7422F86077A0D047AD4059;
 // System.Collections.Hashtable
 struct Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9;
 // System.Collections.Hashtable/bucket[]
@@ -513,16 +511,10 @@ struct SingleRangeU5BU5D_tAB14350EBD5923A7A56245583FE00B16378B6D36;
 struct RegexCode_t12846533CAD1E4221CEDF5A4D15D4D649EA688FA;
 // System.Text.RegularExpressions.RegexFC
 struct RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52;
-// System.Text.RegularExpressions.RegexFCD
-struct RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E;
-// System.Text.RegularExpressions.RegexFC[]
-struct RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72;
 // System.Text.RegularExpressions.RegexInterpreter
 struct RegexInterpreter_tCFD7D68662C4B174087DA02FB6119836DD2EA7DA;
 // System.Text.RegularExpressions.RegexNode
 struct RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75;
-// System.Text.RegularExpressions.RegexNode[]
-struct RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8;
 // System.Text.RegularExpressions.RegexPrefix
 struct RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67;
 // System.Text.RegularExpressions.RegexRunner
@@ -605,13 +597,9 @@ IL2CPP_EXTERN_C RuntimeClass* OidEnumerator_tC2DB288576C575B69F7934274DDD8A5868C
 IL2CPP_EXTERN_C RuntimeClass* Oid_tC00A10270EAF16BBF0F2619B9AEC883E0CFE6137_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PublicKey_tBA8234EB603A903FCBBBE67D8247393D4CC8D620_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RegexCharClass_t56409AACB9ADE95FA5333FC5D94FAADAF564AE90_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RegexInterpreter_tCFD7D68662C4B174087DA02FB6119836DD2EA7DA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RegexOptions_t9A6138CDA9C60924D503C584095349F008C52EA1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RegexParser_t9576D89D31260EF04DE583287FFC127132051FEE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RegexRunner_tBA888C4E3D3BA80EEE14878E4A330461730446B0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
@@ -783,7 +771,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3E5093C51691F5F09D01B272E203376795391CF1
 IL2CPP_EXTERN_C String_t* _stringLiteral3E62E9B46156D196C1AAC718944419216D75E346;
 IL2CPP_EXTERN_C String_t* _stringLiteral3E66AEB02C4E4C2A2B3A431EBF1731473D567D14;
 IL2CPP_EXTERN_C String_t* _stringLiteral3EBA3A42EB097497EF7424DEBC7D82B1A111944D;
-IL2CPP_EXTERN_C String_t* _stringLiteral3F096541A26B4800990ADE37FF48BC9849B9D3CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FF5F085A157B60CB28DBA0860F39CD3E12B11E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral403658E687068FB4134ECC254ECAF3136CDC3FE6;
 IL2CPP_EXTERN_C String_t* _stringLiteral40893F80950A147EF75620DE529E537080333A03;
@@ -848,7 +835,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5768A067F71F301CCE9ED7360D139F45BA6D4727
 IL2CPP_EXTERN_C String_t* _stringLiteral5798F18876C067AB053B1D0EB12BDAED73FA0392;
 IL2CPP_EXTERN_C String_t* _stringLiteral57D20168A3A40FB001223F94DC5BBD203C6E4252;
 IL2CPP_EXTERN_C String_t* _stringLiteral59009E16B24A52CB6F9CD6BD28D918179F23C9DF;
-IL2CPP_EXTERN_C String_t* _stringLiteral5900F0482262F89324FD1D5199529E2C62C06DF4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5975C5872CEACBB04ECD731A29150F3D39D3E47D;
 IL2CPP_EXTERN_C String_t* _stringLiteral598D9BB131BC528B36A1CE6B6110602FF317D373;
 IL2CPP_EXTERN_C String_t* _stringLiteral59A0573B547F09F87025C313A0AB86CC184A5841;
@@ -1258,9 +1244,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveRange_m7D6A22CD61F4BF508988ECB
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Sort_m5518ACEB43F54C9F2AF2C12432F9B8EF696908B6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m411CE50A06F4C66EE31F9F9D1076B22699765D4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m4151A68BD4CB1D737213E7595F574987F8C812B4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mC6523733B48B0774D420C52AAB0D5951127CB49B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mD0C9C1841B63C0CA72E7F0955860F568E97F2189_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m0FFC6D8E8EF63D912869025D9A3ED65726581D11_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m3E7CC4F1ED20231514EA8C23C5CC442DF67CA2BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m54628FCBF04F23DBC61F2012829D52C9CBD5182B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MatchCollection_CopyTo_m12913FC3360BDCB05813BAF720D3C9BB947511A1_RuntimeMethod_var;
@@ -1277,7 +1261,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* PerformanceCountersElement_get_Properties_m
 IL2CPP_EXTERN_C const RuntimeMethod* ProxyElement__ctor_mAFD852231DF0231726E41911409CB2725BE990AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProxyElement_get_Properties_m8A3EE4A3EEF2571DE4768730CEF4107331490377_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RegexCharClass_SetFromProperty_mA33170AF599765B5FDE8611BED646A850FB2330E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_GroupNumberFromName_m770A1CA23339D6F88A539C08A6B18274780E0393_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_InitDefaultMatchTimeout_mC91736B02BD12B92CBD93C329E7A8233CD0B9DA4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_InitializeReferences_m2CD000C1AFAA8B214F32D989C7D116B684A31840_RuntimeMethod_var;
@@ -1288,6 +1271,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Regex_Match_mC2C718B93803F6633A708E430F8698
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_Matches_m6660280F055E0F746058C002B718CAB701CF4516_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_Matches_mBC92CBE041861471127A1764BB4318DCD2C62F26_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_Run_m74FB5EF178DF43F88B9058B94939F557479B93FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex_ValidateMatchTimeout_m71FE7188780DEAD57093B7345CCC50D0159218BE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Regex__ctor_m87918FB2A856E264A492D2A2B4B412BE4E2370BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ServicePointManagerElement__ctor_m61B031714F8498D467B5A0958EE62F73E0C58EB7_RuntimeMethod_var;
@@ -1450,30 +1435,28 @@ IL2CPP_EXTERN_C const uint32_t RegexCharClass_ToStringClass_m7A760D96732A03D46C4
 IL2CPP_EXTERN_C const uint32_t RegexCharClass__cctor_m5170E52D9864BA712125FB33F309FE9E37869EA8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RegexCharClass__ctor_mAA44510F3E5001A8612355B4FFB718D9DDC74264_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RegexCode__ctor_mBCB059D3E98AEA211794E89DDF99193231F298CA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_FirstChars_mC60DC5CA9A078998CB55594436AB9CBFD86478FB_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_Prefix_m50B30C508C6745832FD3A76B2169462455C1A28E_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_PushInt_m63817D3969DF7BD31B7C93D43EE45C4AF539868F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD_RegexFCFromRegexTree_mA85E74765529D05113116C73EC397E832D81D0BC_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexFCD__ctor_mFC6A3309CAFA8C3C2B94094AD443738823388A3B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RegexFC__ctor_mDCBBCCC1BB476741943D7F9AD88731B1DCA0C1B5_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8BSystem_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_CacheCode_m68F93FF3B918776D190D4DB807A3323691C77F0A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_GroupNameFromNumber_mDA7668FB37424BF0F6CA16764F174A6647270FFA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_GroupNumberFromName_m770A1CA23339D6F88A539C08A6B18274780E0393_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_InitDefaultMatchTimeout_mC91736B02BD12B92CBD93C329E7A8233CD0B9DA4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_InitializeReferences_m2CD000C1AFAA8B214F32D989C7D116B684A31840_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_IsMatch_m2FB867817B341A5FA3E64A41F31820C9658F22A5_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_IsMatch_m3C44A8D92E43EA8CC8D623ECC394B27F09E2D5DA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_IsMatch_m79684C4D2CE6C5495BCCE9A32AC029E1E5950B7C_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_IsMatch_m90348BB44AD120A322F411001522DB0758A6678B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_LookupCachedAndUpdate_m88CA03797C5ED796BD5E1319DF6B1B6B6FCE6C0D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_Match_mA36A33D32F895CE84957DC7DA82E2CD45EF19EEA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_Match_mC2C718B93803F6633A708E430F8698E70354B77C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_Matches_m6660280F055E0F746058C002B718CAB701CF4516_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_Matches_mBC92CBE041861471127A1764BB4318DCD2C62F26_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_Run_m74FB5EF178DF43F88B9058B94939F557479B93FC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_Split_mACE8B6D2A871185FE109E9D131104FF28E743C33_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Regex_Split_mB29A9BB688113C29635F3AC0C1B6E9754073CDF7_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_System_Runtime_Serialization_ISerializable_GetObjectData_m95B0E2523A72DF6AC56DEA7CDA286F771E06B0FD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex_ValidateMatchTimeout_m71FE7188780DEAD57093B7345CCC50D0159218BE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Regex__cctor_m86CE9B8D0FF5F2B54D4FF27D2213A1E6917477DF_MetadataUsageId;
@@ -1578,7 +1561,6 @@ struct StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E;
 struct CaptureU5BU5D_t50E7AD7A0DD83F47A18FBA28E57CCCCFC601F452;
 struct GroupU5BU5D_t40CFA194F8EE1BF5E560B7C1E2C8F48220C93910;
 struct LowerCaseMappingU5BU5D_t70011E1042888E1D071920A9171989A479C0618D;
-struct RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72;
 struct UInt16U5BU5D_t2D4BB1F8C486FF4359FFA7E4A76A8708A684543E;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -2379,73 +2361,6 @@ public:
 	inline SingleRangeU5BU5D_tAB14350EBD5923A7A56245583FE00B16378B6D36* get__emptyArray_5() const { return ____emptyArray_5; }
 	inline SingleRangeU5BU5D_tAB14350EBD5923A7A56245583FE00B16378B6D36** get_address_of__emptyArray_5() { return &____emptyArray_5; }
 	inline void set__emptyArray_5(SingleRangeU5BU5D_tAB14350EBD5923A7A56245583FE00B16378B6D36* value)
-	{
-		____emptyArray_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____emptyArray_5), (void*)value);
-	}
-};
-
-
-// System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode>
-struct  List_1_tA5CDE89671B691180A7422F86077A0D047AD4059  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-	// System.Object System.Collections.Generic.List`1::_syncRoot
-	RuntimeObject * ____syncRoot_4;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059, ____items_1)); }
-	inline RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* get__items_1() const { return ____items_1; }
-	inline RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____items_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-
-	inline static int32_t get_offset_of__syncRoot_4() { return static_cast<int32_t>(offsetof(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059, ____syncRoot_4)); }
-	inline RuntimeObject * get__syncRoot_4() const { return ____syncRoot_4; }
-	inline RuntimeObject ** get_address_of__syncRoot_4() { return &____syncRoot_4; }
-	inline void set__syncRoot_4(RuntimeObject * value)
-	{
-		____syncRoot_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_4), (void*)value);
-	}
-};
-
-struct List_1_tA5CDE89671B691180A7422F86077A0D047AD4059_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::_emptyArray
-	RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* ____emptyArray_5;
-
-public:
-	inline static int32_t get_offset_of__emptyArray_5() { return static_cast<int32_t>(offsetof(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059_StaticFields, ____emptyArray_5)); }
-	inline RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* get__emptyArray_5() const { return ____emptyArray_5; }
-	inline RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8** get_address_of__emptyArray_5() { return &____emptyArray_5; }
-	inline void set__emptyArray_5(RegexNodeU5BU5D_tB18DB177D95C55B94FF9644849C7D38F5CD12CB8* value)
 	{
 		____emptyArray_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____emptyArray_5), (void*)value);
@@ -4936,86 +4851,6 @@ public:
 	inline void set__caseInsensitive_2(bool value)
 	{
 		____caseInsensitive_2 = value;
-	}
-};
-
-
-// System.Text.RegularExpressions.RegexFCD
-struct  RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E  : public RuntimeObject
-{
-public:
-	// System.Int32[] System.Text.RegularExpressions.RegexFCD::_intStack
-	Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* ____intStack_0;
-	// System.Int32 System.Text.RegularExpressions.RegexFCD::_intDepth
-	int32_t ____intDepth_1;
-	// System.Text.RegularExpressions.RegexFC[] System.Text.RegularExpressions.RegexFCD::_fcStack
-	RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* ____fcStack_2;
-	// System.Int32 System.Text.RegularExpressions.RegexFCD::_fcDepth
-	int32_t ____fcDepth_3;
-	// System.Boolean System.Text.RegularExpressions.RegexFCD::_skipAllChildren
-	bool ____skipAllChildren_4;
-	// System.Boolean System.Text.RegularExpressions.RegexFCD::_skipchild
-	bool ____skipchild_5;
-	// System.Boolean System.Text.RegularExpressions.RegexFCD::_failed
-	bool ____failed_6;
-
-public:
-	inline static int32_t get_offset_of__intStack_0() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____intStack_0)); }
-	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* get__intStack_0() const { return ____intStack_0; }
-	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83** get_address_of__intStack_0() { return &____intStack_0; }
-	inline void set__intStack_0(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* value)
-	{
-		____intStack_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____intStack_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__intDepth_1() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____intDepth_1)); }
-	inline int32_t get__intDepth_1() const { return ____intDepth_1; }
-	inline int32_t* get_address_of__intDepth_1() { return &____intDepth_1; }
-	inline void set__intDepth_1(int32_t value)
-	{
-		____intDepth_1 = value;
-	}
-
-	inline static int32_t get_offset_of__fcStack_2() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____fcStack_2)); }
-	inline RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* get__fcStack_2() const { return ____fcStack_2; }
-	inline RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72** get_address_of__fcStack_2() { return &____fcStack_2; }
-	inline void set__fcStack_2(RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* value)
-	{
-		____fcStack_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____fcStack_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__fcDepth_3() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____fcDepth_3)); }
-	inline int32_t get__fcDepth_3() const { return ____fcDepth_3; }
-	inline int32_t* get_address_of__fcDepth_3() { return &____fcDepth_3; }
-	inline void set__fcDepth_3(int32_t value)
-	{
-		____fcDepth_3 = value;
-	}
-
-	inline static int32_t get_offset_of__skipAllChildren_4() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____skipAllChildren_4)); }
-	inline bool get__skipAllChildren_4() const { return ____skipAllChildren_4; }
-	inline bool* get_address_of__skipAllChildren_4() { return &____skipAllChildren_4; }
-	inline void set__skipAllChildren_4(bool value)
-	{
-		____skipAllChildren_4 = value;
-	}
-
-	inline static int32_t get_offset_of__skipchild_5() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____skipchild_5)); }
-	inline bool get__skipchild_5() const { return ____skipchild_5; }
-	inline bool* get_address_of__skipchild_5() { return &____skipchild_5; }
-	inline void set__skipchild_5(bool value)
-	{
-		____skipchild_5 = value;
-	}
-
-	inline static int32_t get_offset_of__failed_6() { return static_cast<int32_t>(offsetof(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E, ____failed_6)); }
-	inline bool get__failed_6() const { return ____failed_6; }
-	inline bool* get_address_of__failed_6() { return &____failed_6; }
-	inline void set__failed_6(bool value)
-	{
-		____failed_6 = value;
 	}
 };
 
@@ -9168,97 +9003,6 @@ public:
 };
 
 
-// System.Text.RegularExpressions.RegexNode
-struct  RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75  : public RuntimeObject
-{
-public:
-	// System.Int32 System.Text.RegularExpressions.RegexNode::_type
-	int32_t ____type_0;
-	// System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> System.Text.RegularExpressions.RegexNode::_children
-	List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * ____children_1;
-	// System.String System.Text.RegularExpressions.RegexNode::_str
-	String_t* ____str_2;
-	// System.Char System.Text.RegularExpressions.RegexNode::_ch
-	Il2CppChar ____ch_3;
-	// System.Int32 System.Text.RegularExpressions.RegexNode::_m
-	int32_t ____m_4;
-	// System.Int32 System.Text.RegularExpressions.RegexNode::_n
-	int32_t ____n_5;
-	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.RegexNode::_options
-	int32_t ____options_6;
-	// System.Text.RegularExpressions.RegexNode System.Text.RegularExpressions.RegexNode::_next
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * ____next_7;
-
-public:
-	inline static int32_t get_offset_of__type_0() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____type_0)); }
-	inline int32_t get__type_0() const { return ____type_0; }
-	inline int32_t* get_address_of__type_0() { return &____type_0; }
-	inline void set__type_0(int32_t value)
-	{
-		____type_0 = value;
-	}
-
-	inline static int32_t get_offset_of__children_1() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____children_1)); }
-	inline List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * get__children_1() const { return ____children_1; }
-	inline List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 ** get_address_of__children_1() { return &____children_1; }
-	inline void set__children_1(List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * value)
-	{
-		____children_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____children_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__str_2() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____str_2)); }
-	inline String_t* get__str_2() const { return ____str_2; }
-	inline String_t** get_address_of__str_2() { return &____str_2; }
-	inline void set__str_2(String_t* value)
-	{
-		____str_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____str_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__ch_3() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____ch_3)); }
-	inline Il2CppChar get__ch_3() const { return ____ch_3; }
-	inline Il2CppChar* get_address_of__ch_3() { return &____ch_3; }
-	inline void set__ch_3(Il2CppChar value)
-	{
-		____ch_3 = value;
-	}
-
-	inline static int32_t get_offset_of__m_4() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____m_4)); }
-	inline int32_t get__m_4() const { return ____m_4; }
-	inline int32_t* get_address_of__m_4() { return &____m_4; }
-	inline void set__m_4(int32_t value)
-	{
-		____m_4 = value;
-	}
-
-	inline static int32_t get_offset_of__n_5() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____n_5)); }
-	inline int32_t get__n_5() const { return ____n_5; }
-	inline int32_t* get_address_of__n_5() { return &____n_5; }
-	inline void set__n_5(int32_t value)
-	{
-		____n_5 = value;
-	}
-
-	inline static int32_t get_offset_of__options_6() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____options_6)); }
-	inline int32_t get__options_6() const { return ____options_6; }
-	inline int32_t* get_address_of__options_6() { return &____options_6; }
-	inline void set__options_6(int32_t value)
-	{
-		____options_6 = value;
-	}
-
-	inline static int32_t get_offset_of__next_7() { return static_cast<int32_t>(offsetof(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75, ____next_7)); }
-	inline RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * get__next_7() const { return ____next_7; }
-	inline RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 ** get_address_of__next_7() { return &____next_7; }
-	inline void set__next_7(RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * value)
-	{
-		____next_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____next_7), (void*)value);
-	}
-};
-
-
 // System.Text.RegularExpressions.RegexTree
 struct  RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6  : public RuntimeObject
 {
@@ -10325,43 +10069,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// System.Text.RegularExpressions.RegexFC[]
-struct RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * m_Items[1];
-
-public:
-	inline RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
 
 IL2CPP_EXTERN_C void IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD_marshal_pinvoke(const IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD& unmarshaled, IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD_marshaled_pinvoke& marshaled);
 IL2CPP_EXTERN_C void IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD_marshal_pinvoke_back(const IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD_marshaled_pinvoke& marshaled, IOAsyncResult_tB02ABC485035B18A731F1B61FB27EE17F4B792AD& unmarshaled);
@@ -10901,10 +10608,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GroupEnumerator__ctor_m068EE333FA25ED143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Capture_tF4475248CCF3EFF914844BE2C993FC609D41DB73 * GroupEnumerator_get_Capture_m95A3AE336DB603A5FF6F66FC60E77C1C17300EC2 (GroupEnumerator_t5C014F0682548FBB0F4B2740087D7CDE435B7C98 * __this, const RuntimeMethod* method);
 // System.Void System.Text.RegularExpressions.GroupCollection::.ctor(System.Text.RegularExpressions.Match,System.Collections.Hashtable)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GroupCollection__ctor_mDFB6267479B597E32357B584847B3DA68F74D222 (GroupCollection_tD9051ED1A991E3666439262B517FDD2F968C064F * __this, Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * ___match0, Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * ___caps1, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.Match::.ctor(System.Text.RegularExpressions.Regex,System.Int32,System.String,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Match__ctor_m08A8262ACD89C9E47AA7168D0F2CC6E3338855D7 (Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * __this, Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * ___regex0, int32_t ___capcount1, String_t* ___text2, int32_t ___begpos3, int32_t ___len4, int32_t ___startpos5, const RuntimeMethod* method);
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Run(System.Boolean,System.Int32,System.String,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * Regex_Run_m74FB5EF178DF43F88B9058B94939F557479B93FC (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, bool ___quick0, int32_t ___prevlen1, String_t* ___input2, int32_t ___beginning3, int32_t ___length4, int32_t ___startat5, const RuntimeMethod* method);
+// System.Void System.Text.RegularExpressions.Match::.ctor(System.Text.RegularExpressions.Regex,System.Int32,System.String,System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Match__ctor_m08A8262ACD89C9E47AA7168D0F2CC6E3338855D7 (Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * __this, Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * ___regex0, int32_t ___capcount1, String_t* ___text2, int32_t ___begpos3, int32_t ___len4, int32_t ___startpos5, const RuntimeMethod* method);
 // System.Boolean System.Text.RegularExpressions.Group::get_Success()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Group_get_Success_m91D00749B3C9D2030B72C6DA3AF2B3BA48F22521 (Group_tB4759D0385925B2C8C14ED3FCD5D2F43CFBD0443 * __this, const RuntimeMethod* method);
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::GetMatch(System.Int32)
@@ -10971,6 +10678,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_GetString_m9548BD6DD52DFDB46372F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_m3795145150387C6C362DA693613505C604AB8812 (InvalidCastException_t91DF9E7D7FCCDA6C562CB4A9A18903E016680FDA * __this, String_t* ___message0, const RuntimeMethod* method);
 // System.Boolean System.Text.RegularExpressions.Regex::UseOptionR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_UseOptionR_m84945EDBEDCD61DBCEB691C929CA28F4B0AF4B49 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, const RuntimeMethod* method);
+// System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m90348BB44AD120A322F411001522DB0758A6678B (String_t* ___input0, String_t* ___pattern1, int32_t ___options2, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___matchTimeout3, const RuntimeMethod* method);
+// System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m79684C4D2CE6C5495BCCE9A32AC029E1E5950B7C (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, const RuntimeMethod* method);
 // System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m2FB867817B341A5FA3E64A41F31820C9658F22A5 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, int32_t ___startat1, const RuntimeMethod* method);
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String,System.Int32)
@@ -10979,6 +10690,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Match_tE447871AB59EED3642F31EB9559D162C2977EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchCollection_t8B954CE579727B076276B514F08040EE4D26844A * Regex_Matches_mBC92CBE041861471127A1764BB4318DCD2C62F26 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, int32_t ___startat1, const RuntimeMethod* method);
 // System.Void System.Text.RegularExpressions.MatchCollection::.ctor(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchCollection__ctor_m2684A94B54FD44877B46CA7B9A84E93237D9D0F7 (MatchCollection_t8B954CE579727B076276B514F08040EE4D26844A * __this, Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * ___regex0, String_t* ___input1, int32_t ___beginning2, int32_t ___length3, int32_t ___startat4, const RuntimeMethod* method);
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_mB29A9BB688113C29635F3AC0C1B6E9754073CDF7 (String_t* ___input0, String_t* ___pattern1, int32_t ___options2, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___matchTimeout3, const RuntimeMethod* method);
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, const RuntimeMethod* method);
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, int32_t ___count1, int32_t ___startat2, const RuntimeMethod* method);
+// System.String[] System.Text.RegularExpressions.RegexReplacement::Split(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* RegexReplacement_Split_mDEDE59DED747E05FFD9030EF85E54E827DDF3E54 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * ___regex0, String_t* ___input1, int32_t ___count2, int32_t ___startat3, const RuntimeMethod* method);
 // System.Void System.NotSupportedException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mD023A89A5C1F740F43F0A9CD6C49DC21230B3CEE (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * __this, String_t* ___message0, const RuntimeMethod* method);
 // System.Void System.Text.RegularExpressions.ExclusiveReference::.ctor()
@@ -11197,66 +10916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexCharClass_get_CanMerge_mC27A4CF83CF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexCharClass_AddCharClass_m0E5DD1105844AFB7CE45B5C801304B5C803FB5CA (RegexCharClass_t56409AACB9ADE95FA5333FC5D94FAADAF564AE90 * __this, RegexCharClass_t56409AACB9ADE95FA5333FC5D94FAADAF564AE90 * ___cc0, const RuntimeMethod* method);
 // System.Void System.Text.RegularExpressions.RegexCharClass::AddLowercase(System.Globalization.CultureInfo)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexCharClass_AddLowercase_m01C1B11EB0B82E065276C7ECF60725886F59A07A (RegexCharClass_t56409AACB9ADE95FA5333FC5D94FAADAF564AE90 * __this, CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * ___culture0, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFCD::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD__ctor_mFC6A3309CAFA8C3C2B94094AD443738823388A3B (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_RegexFCFromRegexTree_mA85E74765529D05113116C73EC397E832D81D0BC (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * ___tree0, const RuntimeMethod* method);
-// System.String System.Text.RegularExpressions.RegexFC::GetFirstChars(System.Globalization.CultureInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RegexFC_GetFirstChars_m7252E826F9A5BC1842A5A255BAC5A36EE8DADAF5 (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * ___culture0, const RuntimeMethod* method);
-// System.Boolean System.Text.RegularExpressions.RegexFC::IsCaseInsensitive()
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR bool RegexFC_IsCaseInsensitive_mD87B0C49AAEBB61215F09A9C5ABF8CCB8B5AB64E_inline (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexPrefix::.ctor(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexPrefix__ctor_m93489A4FF55425A15BF5390E77EE0B84F6F9364C (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * __this, String_t* ___prefix0, bool ___ci1, const RuntimeMethod* method);
-// System.Int32 System.Text.RegularExpressions.RegexNode::ChildCount()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexNode_ChildCount_m23B6965575DB0DBC1D90212820DEA144FCB06996 (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * __this, const RuntimeMethod* method);
-// System.Text.RegularExpressions.RegexNode System.Text.RegularExpressions.RegexNode::Child(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * RegexNode_Child_m5AA4FFDDCCFA22FE70BA0F236F19A963AEF72079 (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * __this, int32_t ___i0, const RuntimeMethod* method);
-// System.String System.String::PadRight(System.Int32,System.Char)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_PadRight_mDC890E71A75C12F96DC1430CF94B1B7C1ED839B0 (String_t* __this, int32_t ___totalWidth0, Il2CppChar ___paddingChar1, const RuntimeMethod* method);
-// System.Text.RegularExpressions.RegexPrefix System.Text.RegularExpressions.RegexPrefix::get_Empty()
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8B_inline (const RuntimeMethod* method);
-// System.String System.Char::ToString(System.IFormatProvider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Char_ToString_mF758476EBA0494508C18E74ADF20D7732A872BDE (Il2CppChar* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
-// System.Int32 System.Text.RegularExpressions.RegexFCD::AnchorFromType(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexFCD_AnchorFromType_m4B458E2C589633A43F9324C14F9192EF68F80A14 (int32_t ___type0, const RuntimeMethod* method);
-// System.Void System.Array::Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_mA10D079DD8D9700CA44721A219A934A2397653F6 (RuntimeArray * ___sourceArray0, int32_t ___sourceIndex1, RuntimeArray * ___destinationArray2, int32_t ___destinationIndex3, int32_t ___length4, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFCD::CalculateFC(System.Int32,System.Text.RegularExpressions.RegexNode,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, int32_t ___NodeType0, RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * ___node1, int32_t ___CurIndex2, const RuntimeMethod* method);
-// System.Int32 System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode>::get_Count()
-inline int32_t List_1_get_Count_mC6523733B48B0774D420C52AAB0D5951127CB49B_inline (List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * __this, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 *, const RuntimeMethod*))List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared_inline)(__this, method);
-}
-// !0 System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode>::get_Item(System.Int32)
-inline RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * List_1_get_Item_m0FFC6D8E8EF63D912869025D9A3ED65726581D11_inline (List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	return ((  RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * (*) (List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 *, int32_t, const RuntimeMethod*))List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline)(__this, ___index0, method);
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::PushInt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_PushInt_m63817D3969DF7BD31B7C93D43EE45C4AF539868F (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, int32_t ___I0, const RuntimeMethod* method);
-// System.Boolean System.Text.RegularExpressions.RegexFCD::IntIsEmpty()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFCD_IntIsEmpty_mE825A8A0DF9D5BA6618357ABBA93421D4099AAEB (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Int32 System.Text.RegularExpressions.RegexFCD::PopInt()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexFCD_PopInt_m1E4B64F2F6DDBCB7495E673540CF25FDD4D01B7E (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Boolean System.Text.RegularExpressions.RegexFCD::FCIsEmpty()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFCD_FCIsEmpty_m57FDE5D4E352620B7773AD54B286531CA21FCDAD (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::PopFC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFCD::SkipChild()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_SkipChild_m661F5D339305B97A37D855240A0B9AF500FE03F6 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFC::.ctor(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20 (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, bool ___nullable0, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFCD::PushFC(System.Text.RegularExpressions.RegexFC)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * ___fc0, const RuntimeMethod* method);
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::TopFC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method);
-// System.Boolean System.Text.RegularExpressions.RegexFC::AddFC(System.Text.RegularExpressions.RegexFC,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFC_AddFC_m5B05CD1D7700817843366EC1DF728977EDD4D11E (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * ___fc0, bool ___concatenate1, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFC::.ctor(System.Char,System.Boolean,System.Boolean,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229 (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, Il2CppChar ___ch0, bool ___not1, bool ___nullable2, bool ___caseInsensitive3, const RuntimeMethod* method);
-// System.Void System.Text.RegularExpressions.RegexFC::.ctor(System.String,System.Boolean,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFC__ctor_mDCBBCCC1BB476741943D7F9AD88731B1DCA0C1B5 (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, String_t* ___charClass0, bool ___nullable1, bool ___caseInsensitive2, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mBA2AF20A35144E0C43CD721A22EAC9FCA15D6550 (const RuntimeMethod* method);
 #ifdef __clang__
@@ -28937,6 +28596,34 @@ IL_0015:
 		return L_2;
 	}
 }
+// System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::NextMatch()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * Match_NextMatch_mA9BB438B4D7DE12D45A73720C063CFFF15FE596D (Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * __this, const RuntimeMethod* method)
+{
+	{
+		Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * L_0 = __this->get__regex_10();
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		return __this;
+	}
+
+IL_000a:
+	{
+		Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * L_1 = __this->get__regex_10();
+		int32_t L_2 = ((Capture_tF4475248CCF3EFF914844BE2C993FC609D41DB73 *)__this)->get__length_2();
+		String_t* L_3 = ((Capture_tF4475248CCF3EFF914844BE2C993FC609D41DB73 *)__this)->get__text_0();
+		int32_t L_4 = __this->get__textbeg_11();
+		int32_t L_5 = __this->get__textend_13();
+		int32_t L_6 = __this->get__textbeg_11();
+		int32_t L_7 = __this->get__textpos_12();
+		NullCheck(L_1);
+		Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * L_8 = Regex_Run_m74FB5EF178DF43F88B9058B94939F557479B93FC(L_1, (bool)0, L_2, L_3, L_4, ((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6)), L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
 // System.Void System.Text.RegularExpressions.Match::AddMatch(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Match_AddMatch_m3C9178A7D6F8175A7628E4BE579FD209B7C7650A (Match_tE447871AB59EED3642F31EB9559D162C2977EBB5 * __this, int32_t ___cap0, int32_t ___start1, int32_t ___len2, const RuntimeMethod* method)
 {
@@ -30869,6 +30556,45 @@ IL_0073:
 		return (-1);
 	}
 }
+// System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m3C44A8D92E43EA8CC8D623ECC394B27F09E2D5DA (String_t* ___input0, String_t* ___pattern1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_IsMatch_m3C44A8D92E43EA8CC8D623ECC394B27F09E2D5DA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___input0;
+		String_t* L_1 = ___pattern1;
+		IL2CPP_RUNTIME_CLASS_INIT(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
+		TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  L_2 = ((Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_StaticFields*)il2cpp_codegen_static_fields_for(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var))->get_DefaultMatchTimeout_7();
+		bool L_3 = Regex_IsMatch_m90348BB44AD120A322F411001522DB0758A6678B(L_0, L_1, 0, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m90348BB44AD120A322F411001522DB0758A6678B (String_t* ___input0, String_t* ___pattern1, int32_t ___options2, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___matchTimeout3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_IsMatch_m90348BB44AD120A322F411001522DB0758A6678B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___pattern1;
+		int32_t L_1 = ___options2;
+		TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  L_2 = ___matchTimeout3;
+		Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * L_3 = (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF *)il2cpp_codegen_object_new(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
+		Regex__ctor_m87918FB2A856E264A492D2A2B4B412BE4E2370BB(L_3, L_0, L_1, L_2, (bool)1, /*hidden argument*/NULL);
+		String_t* L_4 = ___input0;
+		NullCheck(L_3);
+		bool L_5 = Regex_IsMatch_m79684C4D2CE6C5495BCCE9A32AC029E1E5950B7C(L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
 // System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m79684C4D2CE6C5495BCCE9A32AC029E1E5950B7C (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, const RuntimeMethod* method)
 {
@@ -31165,6 +30891,149 @@ IL_000e:
 		MatchCollection_t8B954CE579727B076276B514F08040EE4D26844A * L_6 = (MatchCollection_t8B954CE579727B076276B514F08040EE4D26844A *)il2cpp_codegen_object_new(MatchCollection_t8B954CE579727B076276B514F08040EE4D26844A_il2cpp_TypeInfo_var);
 		MatchCollection__ctor_m2684A94B54FD44877B46CA7B9A84E93237D9D0F7(L_6, __this, L_2, 0, L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
+	}
+}
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_mACE8B6D2A871185FE109E9D131104FF28E743C33 (String_t* ___input0, String_t* ___pattern1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_Split_mACE8B6D2A871185FE109E9D131104FF28E743C33_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___input0;
+		String_t* L_1 = ___pattern1;
+		IL2CPP_RUNTIME_CLASS_INIT(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
+		TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  L_2 = ((Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_StaticFields*)il2cpp_codegen_static_fields_for(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var))->get_DefaultMatchTimeout_7();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_3 = Regex_Split_mB29A9BB688113C29635F3AC0C1B6E9754073CDF7(L_0, L_1, 0, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_mB29A9BB688113C29635F3AC0C1B6E9754073CDF7 (String_t* ___input0, String_t* ___pattern1, int32_t ___options2, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___matchTimeout3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_Split_mB29A9BB688113C29635F3AC0C1B6E9754073CDF7_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___pattern1;
+		int32_t L_1 = ___options2;
+		TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  L_2 = ___matchTimeout3;
+		Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * L_3 = (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF *)il2cpp_codegen_object_new(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
+		Regex__ctor_m87918FB2A856E264A492D2A2B4B412BE4E2370BB(L_3, L_0, L_1, L_2, (bool)1, /*hidden argument*/NULL);
+		String_t* L_4 = ___input0;
+		NullCheck(L_3);
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_5 = Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1(L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	String_t* G_B4_1 = NULL;
+	Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * G_B4_2 = NULL;
+	int32_t G_B3_0 = 0;
+	String_t* G_B3_1 = NULL;
+	Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * G_B3_2 = NULL;
+	int32_t G_B5_0 = 0;
+	int32_t G_B5_1 = 0;
+	String_t* G_B5_2 = NULL;
+	Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * G_B5_3 = NULL;
+	{
+		String_t* L_0 = ___input0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_1 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_1, _stringLiteral140F86AAE51AB9E1CDA9B4254FE98A74EB54C1A1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, Regex_Split_m5E86F18B64F94BC89B5DCFEB05FDA1244344F8D1_RuntimeMethod_var);
+	}
+
+IL_000e:
+	{
+		String_t* L_2 = ___input0;
+		bool L_3 = Regex_UseOptionR_m84945EDBEDCD61DBCEB691C929CA28F4B0AF4B49(__this, /*hidden argument*/NULL);
+		G_B3_0 = 0;
+		G_B3_1 = L_2;
+		G_B3_2 = __this;
+		if (L_3)
+		{
+			G_B4_0 = 0;
+			G_B4_1 = L_2;
+			G_B4_2 = __this;
+			goto IL_001c;
+		}
+	}
+	{
+		G_B5_0 = 0;
+		G_B5_1 = G_B3_0;
+		G_B5_2 = G_B3_1;
+		G_B5_3 = G_B3_2;
+		goto IL_0022;
+	}
+
+IL_001c:
+	{
+		String_t* L_4 = ___input0;
+		NullCheck(L_4);
+		int32_t L_5 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_4, /*hidden argument*/NULL);
+		G_B5_0 = L_5;
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+		G_B5_3 = G_B4_2;
+	}
+
+IL_0022:
+	{
+		NullCheck(G_B5_3);
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_6 = Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3(G_B5_3, G_B5_2, G_B5_1, G_B5_0, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// System.String[] System.Text.RegularExpressions.Regex::Split(System.String,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3 (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * __this, String_t* ___input0, int32_t ___count1, int32_t ___startat2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___input0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_1 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_1, _stringLiteral140F86AAE51AB9E1CDA9B4254FE98A74EB54C1A1, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, Regex_Split_mA1DD4EB92F75C783439B5FE691E5323865BA86F3_RuntimeMethod_var);
+	}
+
+IL_000e:
+	{
+		String_t* L_2 = ___input0;
+		int32_t L_3 = ___count1;
+		int32_t L_4 = ___startat2;
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_5 = RegexReplacement_Split_mDEDE59DED747E05FFD9030EF85E54E827DDF3E54(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return L_5;
 	}
 }
 // System.Void System.Text.RegularExpressions.Regex::InitializeReferences()
@@ -37717,1631 +37586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFC_IsCaseInsensitive_mD87B0C49AAEBB
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Text.RegularExpressions.RegexPrefix System.Text.RegularExpressions.RegexFCD::FirstChars(System.Text.RegularExpressions.RegexTree)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * RegexFCD_FirstChars_mC60DC5CA9A078998CB55594436AB9CBFD86478FB (RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * ___t0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_FirstChars_mC60DC5CA9A078998CB55594436AB9CBFD86478FB_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_0 = NULL;
-	CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * V_1 = NULL;
-	CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * G_B6_0 = NULL;
-	{
-		RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * L_0 = (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E *)il2cpp_codegen_object_new(RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E_il2cpp_TypeInfo_var);
-		RegexFCD__ctor_mFC6A3309CAFA8C3C2B94094AD443738823388A3B(L_0, /*hidden argument*/NULL);
-		RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * L_1 = ___t0;
-		NullCheck(L_0);
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_2 = RegexFCD_RegexFCFromRegexTree_mA85E74765529D05113116C73EC397E832D81D0BC(L_0, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_4 = V_0;
-		NullCheck(L_4);
-		bool L_5 = L_4->get__nullable_1();
-		if (!L_5)
-		{
-			goto IL_0019;
-		}
-	}
-
-IL_0017:
-	{
-		return (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 *)NULL;
-	}
-
-IL_0019:
-	{
-		RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * L_6 = ___t0;
-		NullCheck(L_6);
-		int32_t L_7 = L_6->get__options_5();
-		if (((int32_t)((int32_t)L_7&(int32_t)((int32_t)512))))
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F_il2cpp_TypeInfo_var);
-		CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * L_8 = CultureInfo_get_CurrentCulture_mD86F3D8E5D332FB304F80D9B9CA4DE849C2A6831(/*hidden argument*/NULL);
-		G_B6_0 = L_8;
-		goto IL_0033;
-	}
-
-IL_002e:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F_il2cpp_TypeInfo_var);
-		CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * L_9 = CultureInfo_get_InvariantCulture_mF13B47F8A763CE6A9C8A8BB2EED33FF8F7A63A72(/*hidden argument*/NULL);
-		G_B6_0 = L_9;
-	}
-
-IL_0033:
-	{
-		V_1 = G_B6_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_10 = V_0;
-		CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * L_11 = V_1;
-		NullCheck(L_10);
-		String_t* L_12 = RegexFC_GetFirstChars_m7252E826F9A5BC1842A5A255BAC5A36EE8DADAF5(L_10, L_11, /*hidden argument*/NULL);
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_13 = V_0;
-		NullCheck(L_13);
-		bool L_14 = RegexFC_IsCaseInsensitive_mD87B0C49AAEBB61215F09A9C5ABF8CCB8B5AB64E_inline(L_13, /*hidden argument*/NULL);
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_15 = (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 *)il2cpp_codegen_object_new(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix__ctor_m93489A4FF55425A15BF5390E77EE0B84F6F9364C(L_15, L_12, L_14, /*hidden argument*/NULL);
-		return L_15;
-	}
-}
-// System.Text.RegularExpressions.RegexPrefix System.Text.RegularExpressions.RegexFCD::Prefix(System.Text.RegularExpressions.RegexTree)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * RegexFCD_Prefix_m50B30C508C6745832FD3A76B2169462455C1A28E (RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * ___tree0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_Prefix_m50B30C508C6745832FD3A76B2169462455C1A28E_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * V_0 = NULL;
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		V_1 = (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 *)NULL;
-		V_2 = 0;
-		RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * L_0 = ___tree0;
-		NullCheck(L_0);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_1 = L_0->get__root_0();
-		V_0 = L_1;
-	}
-
-IL_000b:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_2 = V_0;
-		NullCheck(L_2);
-		int32_t L_3 = L_2->get__type_0();
-		V_3 = L_3;
-		int32_t L_4 = V_3;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_4, (int32_t)3)))
-		{
-			case 0:
-			{
-				goto IL_00c3;
-			}
-			case 1:
-			{
-				goto IL_0131;
-			}
-			case 2:
-			{
-				goto IL_0131;
-			}
-			case 3:
-			{
-				goto IL_00c3;
-			}
-			case 4:
-			{
-				goto IL_0131;
-			}
-			case 5:
-			{
-				goto IL_0131;
-			}
-			case 6:
-			{
-				goto IL_00f9;
-			}
-			case 7:
-			{
-				goto IL_0131;
-			}
-			case 8:
-			{
-				goto IL_0131;
-			}
-			case 9:
-			{
-				goto IL_011a;
-			}
-			case 10:
-			{
-				goto IL_0131;
-			}
-			case 11:
-			{
-				goto IL_0137;
-			}
-			case 12:
-			{
-				goto IL_0137;
-			}
-			case 13:
-			{
-				goto IL_0137;
-			}
-			case 14:
-			{
-				goto IL_0131;
-			}
-			case 15:
-			{
-				goto IL_0137;
-			}
-			case 16:
-			{
-				goto IL_0137;
-			}
-			case 17:
-			{
-				goto IL_0137;
-			}
-			case 18:
-			{
-				goto IL_0137;
-			}
-			case 19:
-			{
-				goto IL_0131;
-			}
-			case 20:
-			{
-				goto IL_0137;
-			}
-			case 21:
-			{
-				goto IL_0131;
-			}
-			case 22:
-			{
-				goto IL_009f;
-			}
-			case 23:
-			{
-				goto IL_0131;
-			}
-			case 24:
-			{
-				goto IL_0131;
-			}
-			case 25:
-			{
-				goto IL_00b4;
-			}
-			case 26:
-			{
-				goto IL_0131;
-			}
-			case 27:
-			{
-				goto IL_0137;
-			}
-			case 28:
-			{
-				goto IL_0137;
-			}
-			case 29:
-			{
-				goto IL_00b4;
-			}
-		}
-	}
-	{
-		int32_t L_5 = V_3;
-		if ((((int32_t)L_5) == ((int32_t)((int32_t)41))))
-		{
-			goto IL_0137;
-		}
-	}
-	{
-		goto IL_0131;
-	}
-
-IL_009f:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_6 = V_0;
-		NullCheck(L_6);
-		int32_t L_7 = RegexNode_ChildCount_m23B6965575DB0DBC1D90212820DEA144FCB06996(L_6, /*hidden argument*/NULL);
-		if ((((int32_t)L_7) <= ((int32_t)0)))
-		{
-			goto IL_0137;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_8 = V_0;
-		V_1 = L_8;
-		V_2 = 0;
-		goto IL_0137;
-	}
-
-IL_00b4:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_9 = V_0;
-		NullCheck(L_9);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_10 = RegexNode_Child_m5AA4FFDDCCFA22FE70BA0F236F19A963AEF72079(L_9, 0, /*hidden argument*/NULL);
-		V_0 = L_10;
-		V_1 = (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 *)NULL;
-		goto IL_000b;
-	}
-
-IL_00c3:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_11 = V_0;
-		NullCheck(L_11);
-		int32_t L_12 = L_11->get__m_4();
-		if ((((int32_t)L_12) <= ((int32_t)0)))
-		{
-			goto IL_00f3;
-		}
-	}
-	{
-		String_t* L_13 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_14 = V_0;
-		NullCheck(L_14);
-		int32_t L_15 = L_14->get__m_4();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_16 = V_0;
-		NullCheck(L_16);
-		Il2CppChar L_17 = L_16->get__ch_3();
-		NullCheck(L_13);
-		String_t* L_18 = String_PadRight_mDC890E71A75C12F96DC1430CF94B1B7C1ED839B0(L_13, L_15, L_17, /*hidden argument*/NULL);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_19 = V_0;
-		NullCheck(L_19);
-		int32_t L_20 = L_19->get__options_6();
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_21 = (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 *)il2cpp_codegen_object_new(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix__ctor_m93489A4FF55425A15BF5390E77EE0B84F6F9364C(L_21, L_18, (bool)((!(((uint32_t)((int32_t)((int32_t)L_20&(int32_t)1))) <= ((uint32_t)0)))? 1 : 0), /*hidden argument*/NULL);
-		return L_21;
-	}
-
-IL_00f3:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_22 = RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8B_inline(/*hidden argument*/NULL);
-		return L_22;
-	}
-
-IL_00f9:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_23 = V_0;
-		NullCheck(L_23);
-		Il2CppChar* L_24 = L_23->get_address_of__ch_3();
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F_il2cpp_TypeInfo_var);
-		CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * L_25 = CultureInfo_get_InvariantCulture_mF13B47F8A763CE6A9C8A8BB2EED33FF8F7A63A72(/*hidden argument*/NULL);
-		String_t* L_26 = Char_ToString_mF758476EBA0494508C18E74ADF20D7732A872BDE((Il2CppChar*)L_24, L_25, /*hidden argument*/NULL);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_27 = V_0;
-		NullCheck(L_27);
-		int32_t L_28 = L_27->get__options_6();
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_29 = (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 *)il2cpp_codegen_object_new(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix__ctor_m93489A4FF55425A15BF5390E77EE0B84F6F9364C(L_29, L_26, (bool)((!(((uint32_t)((int32_t)((int32_t)L_28&(int32_t)1))) <= ((uint32_t)0)))? 1 : 0), /*hidden argument*/NULL);
-		return L_29;
-	}
-
-IL_011a:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_30 = V_0;
-		NullCheck(L_30);
-		String_t* L_31 = L_30->get__str_2();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_32 = V_0;
-		NullCheck(L_32);
-		int32_t L_33 = L_32->get__options_6();
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_34 = (RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 *)il2cpp_codegen_object_new(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix__ctor_m93489A4FF55425A15BF5390E77EE0B84F6F9364C(L_34, L_31, (bool)((!(((uint32_t)((int32_t)((int32_t)L_33&(int32_t)1))) <= ((uint32_t)0)))? 1 : 0), /*hidden argument*/NULL);
-		return L_34;
-	}
-
-IL_0131:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_35 = RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8B_inline(/*hidden argument*/NULL);
-		return L_35;
-	}
-
-IL_0137:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_36 = V_1;
-		if (!L_36)
-		{
-			goto IL_0143;
-		}
-	}
-	{
-		int32_t L_37 = V_2;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_38 = V_1;
-		NullCheck(L_38);
-		int32_t L_39 = RegexNode_ChildCount_m23B6965575DB0DBC1D90212820DEA144FCB06996(L_38, /*hidden argument*/NULL);
-		if ((((int32_t)L_37) < ((int32_t)L_39)))
-		{
-			goto IL_0149;
-		}
-	}
-
-IL_0143:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_40 = RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8B_inline(/*hidden argument*/NULL);
-		return L_40;
-	}
-
-IL_0149:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_41 = V_1;
-		int32_t L_42 = V_2;
-		int32_t L_43 = L_42;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_43, (int32_t)1));
-		NullCheck(L_41);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_44 = RegexNode_Child_m5AA4FFDDCCFA22FE70BA0F236F19A963AEF72079(L_41, L_43, /*hidden argument*/NULL);
-		V_0 = L_44;
-		goto IL_000b;
-	}
-}
-// System.Int32 System.Text.RegularExpressions.RegexFCD::Anchors(System.Text.RegularExpressions.RegexTree)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexFCD_Anchors_m562FA644F10503074714E0F58A2A00F9F727D75E (RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * ___tree0, const RuntimeMethod* method)
-{
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * V_0 = NULL;
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	int32_t V_4 = 0;
-	{
-		V_1 = (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 *)NULL;
-		V_2 = 0;
-		V_3 = 0;
-		RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * L_0 = ___tree0;
-		NullCheck(L_0);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_1 = L_0->get__root_0();
-		V_0 = L_1;
-	}
-
-IL_000d:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_2 = V_0;
-		NullCheck(L_2);
-		int32_t L_3 = L_2->get__type_0();
-		V_4 = L_3;
-		int32_t L_4 = V_4;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_4, (int32_t)((int32_t)14))))
-		{
-			case 0:
-			{
-				goto IL_0091;
-			}
-			case 1:
-			{
-				goto IL_0091;
-			}
-			case 2:
-			{
-				goto IL_0091;
-			}
-			case 3:
-			{
-				goto IL_009f;
-			}
-			case 4:
-			{
-				goto IL_0091;
-			}
-			case 5:
-			{
-				goto IL_0091;
-			}
-			case 6:
-			{
-				goto IL_0091;
-			}
-			case 7:
-			{
-				goto IL_0091;
-			}
-			case 8:
-			{
-				goto IL_009f;
-			}
-			case 9:
-			{
-				goto IL_00a1;
-			}
-			case 10:
-			{
-				goto IL_009f;
-			}
-			case 11:
-			{
-				goto IL_0073;
-			}
-			case 12:
-			{
-				goto IL_009f;
-			}
-			case 13:
-			{
-				goto IL_009f;
-			}
-			case 14:
-			{
-				goto IL_0082;
-			}
-			case 15:
-			{
-				goto IL_009f;
-			}
-			case 16:
-			{
-				goto IL_00a1;
-			}
-			case 17:
-			{
-				goto IL_00a1;
-			}
-			case 18:
-			{
-				goto IL_0082;
-			}
-		}
-	}
-	{
-		int32_t L_5 = V_4;
-		if ((((int32_t)L_5) == ((int32_t)((int32_t)41))))
-		{
-			goto IL_0091;
-		}
-	}
-	{
-		goto IL_009f;
-	}
-
-IL_0073:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_6 = V_0;
-		NullCheck(L_6);
-		int32_t L_7 = RegexNode_ChildCount_m23B6965575DB0DBC1D90212820DEA144FCB06996(L_6, /*hidden argument*/NULL);
-		if ((((int32_t)L_7) <= ((int32_t)0)))
-		{
-			goto IL_00a1;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_8 = V_0;
-		V_1 = L_8;
-		V_2 = 0;
-		goto IL_00a1;
-	}
-
-IL_0082:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_9 = V_0;
-		NullCheck(L_9);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_10 = RegexNode_Child_m5AA4FFDDCCFA22FE70BA0F236F19A963AEF72079(L_9, 0, /*hidden argument*/NULL);
-		V_0 = L_10;
-		V_1 = (RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 *)NULL;
-		goto IL_000d;
-	}
-
-IL_0091:
-	{
-		int32_t L_11 = V_3;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_12 = V_0;
-		NullCheck(L_12);
-		int32_t L_13 = L_12->get__type_0();
-		int32_t L_14 = RegexFCD_AnchorFromType_m4B458E2C589633A43F9324C14F9192EF68F80A14(L_13, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_11|(int32_t)L_14));
-	}
-
-IL_009f:
-	{
-		int32_t L_15 = V_3;
-		return L_15;
-	}
-
-IL_00a1:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_16 = V_1;
-		if (!L_16)
-		{
-			goto IL_00ad;
-		}
-	}
-	{
-		int32_t L_17 = V_2;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_18 = V_1;
-		NullCheck(L_18);
-		int32_t L_19 = RegexNode_ChildCount_m23B6965575DB0DBC1D90212820DEA144FCB06996(L_18, /*hidden argument*/NULL);
-		if ((((int32_t)L_17) < ((int32_t)L_19)))
-		{
-			goto IL_00af;
-		}
-	}
-
-IL_00ad:
-	{
-		int32_t L_20 = V_3;
-		return L_20;
-	}
-
-IL_00af:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_21 = V_1;
-		int32_t L_22 = V_2;
-		int32_t L_23 = L_22;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)1));
-		NullCheck(L_21);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_24 = RegexNode_Child_m5AA4FFDDCCFA22FE70BA0F236F19A963AEF72079(L_21, L_23, /*hidden argument*/NULL);
-		V_0 = L_24;
-		goto IL_000d;
-	}
-}
-// System.Int32 System.Text.RegularExpressions.RegexFCD::AnchorFromType(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexFCD_AnchorFromType_m4B458E2C589633A43F9324C14F9192EF68F80A14 (int32_t ___type0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___type0;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)((int32_t)14))))
-		{
-			case 0:
-			{
-				goto IL_0030;
-			}
-			case 1:
-			{
-				goto IL_0032;
-			}
-			case 2:
-			{
-				goto IL_0034;
-			}
-			case 3:
-			{
-				goto IL_0047;
-			}
-			case 4:
-			{
-				goto IL_003d;
-			}
-			case 5:
-			{
-				goto IL_003f;
-			}
-			case 6:
-			{
-				goto IL_0041;
-			}
-			case 7:
-			{
-				goto IL_0044;
-			}
-		}
-	}
-	{
-		int32_t L_1 = ___type0;
-		if ((((int32_t)L_1) == ((int32_t)((int32_t)41))))
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		goto IL_0047;
-	}
-
-IL_0030:
-	{
-		return 2;
-	}
-
-IL_0032:
-	{
-		return 8;
-	}
-
-IL_0034:
-	{
-		return ((int32_t)64);
-	}
-
-IL_0037:
-	{
-		return ((int32_t)128);
-	}
-
-IL_003d:
-	{
-		return 1;
-	}
-
-IL_003f:
-	{
-		return 4;
-	}
-
-IL_0041:
-	{
-		return ((int32_t)16);
-	}
-
-IL_0044:
-	{
-		return ((int32_t)32);
-	}
-
-IL_0047:
-	{
-		return 0;
-	}
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD__ctor_mFC6A3309CAFA8C3C2B94094AD443738823388A3B (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD__ctor_mFC6A3309CAFA8C3C2B94094AD443738823388A3B_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_0 = (RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72*)(RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72*)SZArrayNew(RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
-		__this->set__fcStack_2(L_0);
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_1 = (Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83*)(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83*)SZArrayNew(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
-		__this->set__intStack_0(L_1);
-		return;
-	}
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::PushInt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_PushInt_m63817D3969DF7BD31B7C93D43EE45C4AF539868F (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, int32_t ___I0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_PushInt_m63817D3969DF7BD31B7C93D43EE45C4AF539868F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* V_0 = NULL;
-	int32_t V_1 = 0;
-	{
-		int32_t L_0 = __this->get__intDepth_1();
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_1 = __this->get__intStack_0();
-		NullCheck(L_1);
-		if ((((int32_t)L_0) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length)))))))
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		int32_t L_2 = __this->get__intDepth_1();
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_3 = (Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83*)(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83*)SZArrayNew(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_2, (int32_t)2)));
-		V_0 = L_3;
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_4 = __this->get__intStack_0();
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_5 = V_0;
-		int32_t L_6 = __this->get__intDepth_1();
-		Array_Copy_mA10D079DD8D9700CA44721A219A934A2397653F6((RuntimeArray *)(RuntimeArray *)L_4, 0, (RuntimeArray *)(RuntimeArray *)L_5, 0, L_6, /*hidden argument*/NULL);
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_7 = V_0;
-		__this->set__intStack_0(L_7);
-	}
-
-IL_0039:
-	{
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_8 = __this->get__intStack_0();
-		int32_t L_9 = __this->get__intDepth_1();
-		V_1 = L_9;
-		int32_t L_10 = V_1;
-		__this->set__intDepth_1(((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1)));
-		int32_t L_11 = V_1;
-		int32_t L_12 = ___I0;
-		NullCheck(L_8);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)L_12);
-		return;
-	}
-}
-// System.Boolean System.Text.RegularExpressions.RegexFCD::IntIsEmpty()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFCD_IntIsEmpty_mE825A8A0DF9D5BA6618357ABBA93421D4099AAEB (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = __this->get__intDepth_1();
-		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Int32 System.Text.RegularExpressions.RegexFCD::PopInt()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RegexFCD_PopInt_m1E4B64F2F6DDBCB7495E673540CF25FDD4D01B7E (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* L_0 = __this->get__intStack_0();
-		int32_t L_1 = __this->get__intDepth_1();
-		V_0 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1));
-		int32_t L_2 = V_0;
-		__this->set__intDepth_1(L_2);
-		int32_t L_3 = V_0;
-		NullCheck(L_0);
-		int32_t L_4 = L_3;
-		int32_t L_5 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		return L_5;
-	}
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::PushFC(System.Text.RegularExpressions.RegexFC)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * ___fc0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* V_0 = NULL;
-	int32_t V_1 = 0;
-	{
-		int32_t L_0 = __this->get__fcDepth_3();
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_1 = __this->get__fcStack_2();
-		NullCheck(L_1);
-		if ((((int32_t)L_0) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length)))))))
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		int32_t L_2 = __this->get__fcDepth_3();
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_3 = (RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72*)(RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72*)SZArrayNew(RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_2, (int32_t)2)));
-		V_0 = L_3;
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_4 = __this->get__fcStack_2();
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_5 = V_0;
-		int32_t L_6 = __this->get__fcDepth_3();
-		Array_Copy_mA10D079DD8D9700CA44721A219A934A2397653F6((RuntimeArray *)(RuntimeArray *)L_4, 0, (RuntimeArray *)(RuntimeArray *)L_5, 0, L_6, /*hidden argument*/NULL);
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_7 = V_0;
-		__this->set__fcStack_2(L_7);
-	}
-
-IL_0039:
-	{
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_8 = __this->get__fcStack_2();
-		int32_t L_9 = __this->get__fcDepth_3();
-		V_1 = L_9;
-		int32_t L_10 = V_1;
-		__this->set__fcDepth_3(((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1)));
-		int32_t L_11 = V_1;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_12 = ___fc0;
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, L_12);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)L_12);
-		return;
-	}
-}
-// System.Boolean System.Text.RegularExpressions.RegexFCD::FCIsEmpty()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegexFCD_FCIsEmpty_m57FDE5D4E352620B7773AD54B286531CA21FCDAD (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = __this->get__fcDepth_3();
-		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::PopFC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_0 = __this->get__fcStack_2();
-		int32_t L_1 = __this->get__fcDepth_3();
-		V_0 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1));
-		int32_t L_2 = V_0;
-		__this->set__fcDepth_3(L_2);
-		int32_t L_3 = V_0;
-		NullCheck(L_0);
-		int32_t L_4 = L_3;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_5 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		return L_5;
-	}
-}
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::TopFC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	{
-		RegexFCU5BU5D_tCABE05C26F3229DFDD9C8A86F3BA828C18F02D72* L_0 = __this->get__fcStack_2();
-		int32_t L_1 = __this->get__fcDepth_3();
-		NullCheck(L_0);
-		int32_t L_2 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1));
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
-		return L_3;
-	}
-}
-// System.Text.RegularExpressions.RegexFC System.Text.RegularExpressions.RegexFCD::RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * RegexFCD_RegexFCFromRegexTree_mA85E74765529D05113116C73EC397E832D81D0BC (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * ___tree0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_RegexFCFromRegexTree_mA85E74765529D05113116C73EC397E832D81D0BC_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * V_0 = NULL;
-	int32_t V_1 = 0;
-	{
-		RegexTree_t8FE2EC649AB50FDA90239EA1410A881F278B47B6 * L_0 = ___tree0;
-		NullCheck(L_0);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_1 = L_0->get__root_0();
-		V_0 = L_1;
-		V_1 = 0;
-	}
-
-IL_0009:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_2 = V_0;
-		NullCheck(L_2);
-		List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * L_3 = L_2->get__children_1();
-		if (L_3)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_4 = V_0;
-		NullCheck(L_4);
-		int32_t L_5 = L_4->get__type_0();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_6 = V_0;
-		RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8(__this, L_5, L_6, 0, /*hidden argument*/NULL);
-		goto IL_0075;
-	}
-
-IL_0021:
-	{
-		int32_t L_7 = V_1;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_8 = V_0;
-		NullCheck(L_8);
-		List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * L_9 = L_8->get__children_1();
-		NullCheck(L_9);
-		int32_t L_10 = List_1_get_Count_mC6523733B48B0774D420C52AAB0D5951127CB49B_inline(L_9, /*hidden argument*/List_1_get_Count_mC6523733B48B0774D420C52AAB0D5951127CB49B_RuntimeMethod_var);
-		if ((((int32_t)L_7) >= ((int32_t)L_10)))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		bool L_11 = __this->get__skipAllChildren_4();
-		if (L_11)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_12 = V_0;
-		NullCheck(L_12);
-		int32_t L_13 = L_12->get__type_0();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_14 = V_0;
-		int32_t L_15 = V_1;
-		RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8(__this, ((int32_t)((int32_t)L_13|(int32_t)((int32_t)64))), L_14, L_15, /*hidden argument*/NULL);
-		bool L_16 = __this->get__skipchild_5();
-		if (L_16)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_17 = V_0;
-		NullCheck(L_17);
-		List_1_tA5CDE89671B691180A7422F86077A0D047AD4059 * L_18 = L_17->get__children_1();
-		int32_t L_19 = V_1;
-		NullCheck(L_18);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_20 = List_1_get_Item_m0FFC6D8E8EF63D912869025D9A3ED65726581D11_inline(L_18, L_19, /*hidden argument*/List_1_get_Item_m0FFC6D8E8EF63D912869025D9A3ED65726581D11_RuntimeMethod_var);
-		V_0 = L_20;
-		int32_t L_21 = V_1;
-		RegexFCD_PushInt_m63817D3969DF7BD31B7C93D43EE45C4AF539868F(__this, L_21, /*hidden argument*/NULL);
-		V_1 = 0;
-		goto IL_0009;
-	}
-
-IL_0068:
-	{
-		int32_t L_22 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)1));
-		__this->set__skipchild_5((bool)0);
-		goto IL_0009;
-	}
-
-IL_0075:
-	{
-		__this->set__skipAllChildren_4((bool)0);
-		bool L_23 = RegexFCD_IntIsEmpty_mE825A8A0DF9D5BA6618357ABBA93421D4099AAEB(__this, /*hidden argument*/NULL);
-		if (L_23)
-		{
-			goto IL_00b9;
-		}
-	}
-	{
-		int32_t L_24 = RegexFCD_PopInt_m1E4B64F2F6DDBCB7495E673540CF25FDD4D01B7E(__this, /*hidden argument*/NULL);
-		V_1 = L_24;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_25 = V_0;
-		NullCheck(L_25);
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_26 = L_25->get__next_7();
-		V_0 = L_26;
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_27 = V_0;
-		NullCheck(L_27);
-		int32_t L_28 = L_27->get__type_0();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_29 = V_0;
-		int32_t L_30 = V_1;
-		RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8(__this, ((int32_t)((int32_t)L_28|(int32_t)((int32_t)128))), L_29, L_30, /*hidden argument*/NULL);
-		bool L_31 = __this->get__failed_6();
-		if (!L_31)
-		{
-			goto IL_00b0;
-		}
-	}
-	{
-		return (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)NULL;
-	}
-
-IL_00b0:
-	{
-		int32_t L_32 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_32, (int32_t)1));
-		goto IL_0009;
-	}
-
-IL_00b9:
-	{
-		bool L_33 = RegexFCD_FCIsEmpty_m57FDE5D4E352620B7773AD54B286531CA21FCDAD(__this, /*hidden argument*/NULL);
-		if (!L_33)
-		{
-			goto IL_00c3;
-		}
-	}
-	{
-		return (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)NULL;
-	}
-
-IL_00c3:
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_34 = RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E(__this, /*hidden argument*/NULL);
-		return L_34;
-	}
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::SkipChild()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_SkipChild_m661F5D339305B97A37D855240A0B9AF500FE03F6 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, const RuntimeMethod* method)
-{
-	{
-		__this->set__skipchild_5((bool)1);
-		return;
-	}
-}
-// System.Void System.Text.RegularExpressions.RegexFCD::CalculateFC(System.Int32,System.Text.RegularExpressions.RegexNode,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8 (RegexFCD_tCEDC8A19D3317F0856BC21A345C7E57A41FA568E * __this, int32_t ___NodeType0, RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * ___node1, int32_t ___CurIndex2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_2 = NULL;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_3 = NULL;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_4 = NULL;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_5 = NULL;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_6 = NULL;
-	RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * V_7 = NULL;
-	{
-		V_0 = (bool)0;
-		V_1 = (bool)0;
-		int32_t L_0 = ___NodeType0;
-		if ((((int32_t)L_0) > ((int32_t)((int32_t)13))))
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_1 = ___node1;
-		NullCheck(L_1);
-		int32_t L_2 = L_1->get__options_6();
-		if (!((int32_t)((int32_t)L_2&(int32_t)1)))
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		V_0 = (bool)1;
-	}
-
-IL_0015:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_3 = ___node1;
-		NullCheck(L_3);
-		int32_t L_4 = L_3->get__options_6();
-		if (!((int32_t)((int32_t)L_4&(int32_t)((int32_t)64))))
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		V_1 = (bool)1;
-	}
-
-IL_0022:
-	{
-		int32_t L_5 = ___NodeType0;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)3)))
-		{
-			case 0:
-			{
-				goto IL_0229;
-			}
-			case 1:
-			{
-				goto IL_0246;
-			}
-			case 2:
-			{
-				goto IL_02d6;
-			}
-			case 3:
-			{
-				goto IL_0229;
-			}
-			case 4:
-			{
-				goto IL_0246;
-			}
-			case 5:
-			{
-				goto IL_02d6;
-			}
-			case 6:
-			{
-				goto IL_0210;
-			}
-			case 7:
-			{
-				goto IL_0210;
-			}
-			case 8:
-			{
-				goto IL_02c2;
-			}
-			case 9:
-			{
-				goto IL_0263;
-			}
-			case 10:
-			{
-				goto IL_02f2;
-			}
-			case 11:
-			{
-				goto IL_0305;
-			}
-			case 12:
-			{
-				goto IL_0305;
-			}
-			case 13:
-			{
-				goto IL_0305;
-			}
-			case 14:
-			{
-				goto IL_0305;
-			}
-			case 15:
-			{
-				goto IL_0305;
-			}
-			case 16:
-			{
-				goto IL_0305;
-			}
-			case 17:
-			{
-				goto IL_0305;
-			}
-			case 18:
-			{
-				goto IL_0305;
-			}
-			case 19:
-			{
-				goto IL_0305;
-			}
-			case 20:
-			{
-				goto IL_0149;
-			}
-			case 21:
-			{
-				goto IL_0312;
-			}
-			case 22:
-			{
-				goto IL_0312;
-			}
-			case 23:
-			{
-				goto IL_0312;
-			}
-			case 24:
-			{
-				goto IL_0312;
-			}
-			case 25:
-			{
-				goto IL_0312;
-			}
-			case 26:
-			{
-				goto IL_0312;
-			}
-			case 27:
-			{
-				goto IL_0312;
-			}
-			case 28:
-			{
-				goto IL_0312;
-			}
-			case 29:
-			{
-				goto IL_0312;
-			}
-			case 30:
-			{
-				goto IL_0312;
-			}
-			case 31:
-			{
-				goto IL_0312;
-			}
-			case 32:
-			{
-				goto IL_0312;
-			}
-			case 33:
-			{
-				goto IL_0312;
-			}
-			case 34:
-			{
-				goto IL_0312;
-			}
-			case 35:
-			{
-				goto IL_0312;
-			}
-			case 36:
-			{
-				goto IL_0312;
-			}
-			case 37:
-			{
-				goto IL_0312;
-			}
-			case 38:
-			{
-				goto IL_0305;
-			}
-			case 39:
-			{
-				goto IL_0305;
-			}
-		}
-	}
-	{
-		int32_t L_6 = ___NodeType0;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_6, (int32_t)((int32_t)88))))
-		{
-			case 0:
-			{
-				goto IL_0337;
-			}
-			case 1:
-			{
-				goto IL_0337;
-			}
-			case 2:
-			{
-				goto IL_0337;
-			}
-			case 3:
-			{
-				goto IL_0337;
-			}
-			case 4:
-			{
-				goto IL_0337;
-			}
-			case 5:
-			{
-				goto IL_0337;
-			}
-			case 6:
-			{
-				goto IL_01fd;
-			}
-			case 7:
-			{
-				goto IL_01fd;
-			}
-			case 8:
-			{
-				goto IL_0337;
-			}
-			case 9:
-			{
-				goto IL_0337;
-			}
-			case 10:
-			{
-				goto IL_013c;
-			}
-		}
-	}
-	{
-		int32_t L_7 = ___NodeType0;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_7, (int32_t)((int32_t)152))))
-		{
-			case 0:
-			{
-				goto IL_01bb;
-			}
-			case 1:
-			{
-				goto IL_0156;
-			}
-			case 2:
-			{
-				goto IL_01e5;
-			}
-			case 3:
-			{
-				goto IL_01e5;
-			}
-			case 4:
-			{
-				goto IL_0337;
-			}
-			case 5:
-			{
-				goto IL_0337;
-			}
-			case 6:
-			{
-				goto IL_0337;
-			}
-			case 7:
-			{
-				goto IL_0337;
-			}
-			case 8:
-			{
-				goto IL_0337;
-			}
-			case 9:
-			{
-				goto IL_01bb;
-			}
-			case 10:
-			{
-				goto IL_0190;
-			}
-		}
-	}
-	{
-		goto IL_0312;
-	}
-
-IL_013c:
-	{
-		int32_t L_8 = ___CurIndex2;
-		if (L_8)
-		{
-			goto IL_0337;
-		}
-	}
-	{
-		RegexFCD_SkipChild_m661F5D339305B97A37D855240A0B9AF500FE03F6(__this, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0149:
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_9 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20(L_9, (bool)1, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_9, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0156:
-	{
-		int32_t L_10 = ___CurIndex2;
-		if (!L_10)
-		{
-			goto IL_0178;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_11 = RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E(__this, /*hidden argument*/NULL);
-		V_2 = L_11;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_12 = RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F(__this, /*hidden argument*/NULL);
-		V_3 = L_12;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_13 = V_3;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_14 = V_2;
-		NullCheck(L_13);
-		bool L_15 = RegexFC_AddFC_m5B05CD1D7700817843366EC1DF728977EDD4D11E(L_13, L_14, (bool)1, /*hidden argument*/NULL);
-		__this->set__failed_6((bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0));
-	}
-
-IL_0178:
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_16 = RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F(__this, /*hidden argument*/NULL);
-		NullCheck(L_16);
-		bool L_17 = L_16->get__nullable_1();
-		if (L_17)
-		{
-			goto IL_0337;
-		}
-	}
-	{
-		__this->set__skipAllChildren_4((bool)1);
-		return;
-	}
-
-IL_0190:
-	{
-		int32_t L_18 = ___CurIndex2;
-		if ((((int32_t)L_18) <= ((int32_t)1)))
-		{
-			goto IL_0337;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_19 = RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E(__this, /*hidden argument*/NULL);
-		V_4 = L_19;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_20 = RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F(__this, /*hidden argument*/NULL);
-		V_5 = L_20;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_21 = V_5;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_22 = V_4;
-		NullCheck(L_21);
-		bool L_23 = RegexFC_AddFC_m5B05CD1D7700817843366EC1DF728977EDD4D11E(L_21, L_22, (bool)0, /*hidden argument*/NULL);
-		__this->set__failed_6((bool)((((int32_t)L_23) == ((int32_t)0))? 1 : 0));
-		return;
-	}
-
-IL_01bb:
-	{
-		int32_t L_24 = ___CurIndex2;
-		if (!L_24)
-		{
-			goto IL_0337;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_25 = RegexFCD_PopFC_m987A35E9ADF69335799EDEEB12C2CD3A3F40FB6E(__this, /*hidden argument*/NULL);
-		V_6 = L_25;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_26 = RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F(__this, /*hidden argument*/NULL);
-		V_7 = L_26;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_27 = V_7;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_28 = V_6;
-		NullCheck(L_27);
-		bool L_29 = RegexFC_AddFC_m5B05CD1D7700817843366EC1DF728977EDD4D11E(L_27, L_28, (bool)0, /*hidden argument*/NULL);
-		__this->set__failed_6((bool)((((int32_t)L_29) == ((int32_t)0))? 1 : 0));
-		return;
-	}
-
-IL_01e5:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_30 = ___node1;
-		NullCheck(L_30);
-		int32_t L_31 = L_30->get__m_4();
-		if (L_31)
-		{
-			goto IL_0337;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_32 = RegexFCD_TopFC_m26ED21621830CF30FDA46AE8D7F3AC9F50DE416F(__this, /*hidden argument*/NULL);
-		NullCheck(L_32);
-		L_32->set__nullable_1((bool)1);
-		return;
-	}
-
-IL_01fd:
-	{
-		RegexFCD_SkipChild_m661F5D339305B97A37D855240A0B9AF500FE03F6(__this, /*hidden argument*/NULL);
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_33 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20(L_33, (bool)1, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_33, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0210:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_34 = ___node1;
-		NullCheck(L_34);
-		Il2CppChar L_35 = L_34->get__ch_3();
-		int32_t L_36 = ___NodeType0;
-		bool L_37 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_38 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229(L_38, L_35, (bool)((((int32_t)L_36) == ((int32_t)((int32_t)10)))? 1 : 0), (bool)0, L_37, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_38, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0229:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_39 = ___node1;
-		NullCheck(L_39);
-		Il2CppChar L_40 = L_39->get__ch_3();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_41 = ___node1;
-		NullCheck(L_41);
-		int32_t L_42 = L_41->get__m_4();
-		bool L_43 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_44 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229(L_44, L_40, (bool)0, (bool)((((int32_t)L_42) == ((int32_t)0))? 1 : 0), L_43, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_44, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0246:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_45 = ___node1;
-		NullCheck(L_45);
-		Il2CppChar L_46 = L_45->get__ch_3();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_47 = ___node1;
-		NullCheck(L_47);
-		int32_t L_48 = L_47->get__m_4();
-		bool L_49 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_50 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229(L_50, L_46, (bool)1, (bool)((((int32_t)L_48) == ((int32_t)0))? 1 : 0), L_49, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_50, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0263:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_51 = ___node1;
-		NullCheck(L_51);
-		String_t* L_52 = L_51->get__str_2();
-		NullCheck(L_52);
-		int32_t L_53 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_52, /*hidden argument*/NULL);
-		if (L_53)
-		{
-			goto IL_027d;
-		}
-	}
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_54 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20(L_54, (bool)1, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_54, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_027d:
-	{
-		bool L_55 = V_1;
-		if (L_55)
-		{
-			goto IL_029b;
-		}
-	}
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_56 = ___node1;
-		NullCheck(L_56);
-		String_t* L_57 = L_56->get__str_2();
-		NullCheck(L_57);
-		Il2CppChar L_58 = String_get_Chars_m14308AC3B95F8C1D9F1D1055B116B37D595F1D96(L_57, 0, /*hidden argument*/NULL);
-		bool L_59 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_60 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229(L_60, L_58, (bool)0, (bool)0, L_59, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_60, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_029b:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_61 = ___node1;
-		NullCheck(L_61);
-		String_t* L_62 = L_61->get__str_2();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_63 = ___node1;
-		NullCheck(L_63);
-		String_t* L_64 = L_63->get__str_2();
-		NullCheck(L_64);
-		int32_t L_65 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_64, /*hidden argument*/NULL);
-		NullCheck(L_62);
-		Il2CppChar L_66 = String_get_Chars_m14308AC3B95F8C1D9F1D1055B116B37D595F1D96(L_62, ((int32_t)il2cpp_codegen_subtract((int32_t)L_65, (int32_t)1)), /*hidden argument*/NULL);
-		bool L_67 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_68 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m023D08ED0365AE9AAC539333B4390A8052C59229(L_68, L_66, (bool)0, (bool)0, L_67, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_68, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_02c2:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_69 = ___node1;
-		NullCheck(L_69);
-		String_t* L_70 = L_69->get__str_2();
-		bool L_71 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_72 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_mDCBBCCC1BB476741943D7F9AD88731B1DCA0C1B5(L_72, L_70, (bool)0, L_71, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_72, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_02d6:
-	{
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_73 = ___node1;
-		NullCheck(L_73);
-		String_t* L_74 = L_73->get__str_2();
-		RegexNode_tF92FC16590D5B00965BABFC709BA677DA0FC3F75 * L_75 = ___node1;
-		NullCheck(L_75);
-		int32_t L_76 = L_75->get__m_4();
-		bool L_77 = V_0;
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_78 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_mDCBBCCC1BB476741943D7F9AD88731B1DCA0C1B5(L_78, L_74, (bool)((((int32_t)L_76) == ((int32_t)0))? 1 : 0), L_77, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_78, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_02f2:
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_79 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_mDCBBCCC1BB476741943D7F9AD88731B1DCA0C1B5(L_79, _stringLiteral3F096541A26B4800990ADE37FF48BC9849B9D3CC, (bool)1, (bool)0, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_79, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0305:
-	{
-		RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * L_80 = (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 *)il2cpp_codegen_object_new(RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52_il2cpp_TypeInfo_var);
-		RegexFC__ctor_m354E8197215F3EE9097B69E783B744365A38EF20(L_80, (bool)1, /*hidden argument*/NULL);
-		RegexFCD_PushFC_mBE154E351E7C49FFFC26E603B4672136D91479C7(__this, L_80, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0312:
-	{
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_81 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)SZArrayNew(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_82 = L_81;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F_il2cpp_TypeInfo_var);
-		CultureInfo_t345AC6924134F039ED9A11F3E03F8E91B6A3225F * L_83 = CultureInfo_get_CurrentCulture_mD86F3D8E5D332FB304F80D9B9CA4DE849C2A6831(/*hidden argument*/NULL);
-		String_t* L_84 = Int32_ToString_m1D0AF82BDAB5D4710527DD3FEFA6F01246D128A5((int32_t*)(&___NodeType0), L_83, /*hidden argument*/NULL);
-		NullCheck(L_82);
-		ArrayElementTypeCheck (L_82, L_84);
-		(L_82)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_84);
-		String_t* L_85 = SR_GetString_m9548BD6DD52DFDB46372F211078AE57FA2401E39(_stringLiteral5900F0482262F89324FD1D5199529E2C62C06DF4, L_82, /*hidden argument*/NULL);
-		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_86 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_86, L_85, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_86, NULL, RegexFCD_CalculateFC_m2267FAA6BCA80275E21DC9A0BAF90BBC85204BD8_RuntimeMethod_var);
-	}
-
-IL_0337:
-	{
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline (String_t* __this, const RuntimeMethod* method)
 {
 	{
@@ -39468,27 +37712,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int64_t TimeSpan_get_Ticks_m829C28C42
 {
 	{
 		int64_t L_0 = __this->get__ticks_3();
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR bool RegexFC_IsCaseInsensitive_mD87B0C49AAEBB61215F09A9C5ABF8CCB8B5AB64E_inline (RegexFC_t076AC007C0B19472DFC727FF856B5755332B8B52 * __this, const RuntimeMethod* method)
-{
-	{
-		bool L_0 = __this->get__caseInsensitive_2();
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8B_inline (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RegexPrefix_get_Empty_mAD10DECDBC7C51F9ACF5C02E3191874252DF9B8BSystem_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var);
-		RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67 * L_0 = ((RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_StaticFields*)il2cpp_codegen_static_fields_for(RegexPrefix_tACADB52E91EFEB63B5EF7A1850634604F98FEE67_il2cpp_TypeInfo_var))->get__empty_2();
 		return L_0;
 	}
 }

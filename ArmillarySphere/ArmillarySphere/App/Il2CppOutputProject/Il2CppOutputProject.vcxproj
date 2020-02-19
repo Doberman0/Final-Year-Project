@@ -219,6 +219,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.VRModule_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.WindModule_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.XRModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine_CodeGen.c">
@@ -354,6 +356,8 @@
     <ClCompile Include="Source\il2cppOutput\Generics55.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics56.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics57.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics6.cpp">
     </ClCompile>
@@ -673,6 +677,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.VideoModule.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.VRModule.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.WindModule.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.XRModule.cpp">
     </ClCompile>

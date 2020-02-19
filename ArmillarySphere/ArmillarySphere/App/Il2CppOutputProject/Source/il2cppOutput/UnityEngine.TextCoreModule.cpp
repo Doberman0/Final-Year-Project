@@ -101,6 +101,8 @@ IL2CPP_EXTERN_C const uint32_t FontEngine_LoadFontFace_mFEBC3184605C0BD37A83021F
 IL2CPP_EXTERN_C const uint32_t FontEngine_RenderGlyphsToTexture_m6A61FED7FC28A80B730C4B2C492A8E802DD2EB80_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t FontEngine_TryAddGlyphToTexture_mD70AEC0FDCEE818B4366C78FF662464F13112172_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t FontEngine_TryAddGlyphsToTexture_mFC834881F6DB0867C01A9902A879C13ED66404A4_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t FontEngine_TryGetGlyphWithIndexValue_m75A9F7605232FAF4D9948E2E7BDFFB01A8FD5178_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t FontEngine_TryGetGlyphWithUnicodeValue_mBC940303E740DC1897FCA6247D048266298BE00C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t FontEngine_TryPackGlyphInAtlas_m0E9E8FBBC64AF69CB1DEB3C8A2EF862222C3B8EA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t FontEngine__cctor_m17164EA5533727BA15D0E56719925E8AA986F7BC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GlyphMetrics_Equals_m9B560B32ACCF0761D3BAD2031882235C7EAD601D_MetadataUsageId;
@@ -1484,6 +1486,24 @@ public:
 };
 
 
+// UnityEngine.TextCore.LowLevel.GlyphLoadFlags
+struct  GlyphLoadFlags_t009F1B3663C1AC0CE62D615975C1F77A986C9F09 
+{
+public:
+	// System.Int32 UnityEngine.TextCore.LowLevel.GlyphLoadFlags::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GlyphLoadFlags_t009F1B3663C1AC0CE62D615975C1F77A986C9F09, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 struct  GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 
 {
@@ -2027,6 +2047,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FontEngine_InitializeFontEngine_Inter
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FontEngine_LoadFontFace_With_Size_FromFont_Internal_m325AFCA4FC2C627409FC9831A009940112D6B013 (Font_t1EDE54AF557272BE314EB4B40EFA50CEB353CA26 * ___font0, int32_t ___pointSize1, const RuntimeMethod* method);
 // System.Int32 UnityEngine.TextCore.LowLevel.FontEngine::GetFaceInfo_Internal(UnityEngine.TextCore.FaceInfo&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FontEngine_GetFaceInfo_Internal_m651FC0E71B8D4FB858C70374126E142659537F8C (FaceInfo_t32155CB9E0D125155E829A3D23119FB323F382A8 * ___faceInfo0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithUnicodeValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C (uint32_t ___unicode0, int32_t ___loadFlags1, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * ___glyphStruct2, const RuntimeMethod* method);
+// System.Void UnityEngine.TextCore.Glyph::.ctor(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Glyph__ctor_mDE5144A797FA0EF0136512443E10B649F3D101BF (Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * __this, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  ___glyphStruct0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithIndexValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170 (uint32_t ___glyphIndex0, int32_t ___loadFlags1, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * ___glyphStruct2, const RuntimeMethod* method);
 // System.Void UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct::.ctor(UnityEngine.TextCore.Glyph)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlyphMarshallingStruct__ctor_mC65A885AB9C9D04B45FB90DF913C6404DA655220 (GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * __this, Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * ___glyph0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect>::get_Count()
@@ -2071,8 +2097,6 @@ inline Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * List_1_get_Item_m1AA0C2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FontEngine_RenderGlyphsToTexture_Internal_m75E35FA3BB446FAD0E9574A2109BF1AF8758218D (GlyphMarshallingStructU5BU5D_tB5E281DB809E6848B7CC9F02763B5E5AAE5E5662* ___glyphs0, int32_t ___glyphCount1, int32_t ___padding2, int32_t ___renderMode3, Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * ___texture4, const RuntimeMethod* method);
 // System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryAddGlyphToTexture_Internal(System.UInt32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.LowLevel.GlyphRenderMode,UnityEngine.Texture2D,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryAddGlyphToTexture_Internal_mAD9085B9AF5B6BEBAB100A0F0DD3114CF23B7E82 (uint32_t ___glyphIndex0, int32_t ___padding1, int32_t ___packingMode2, GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* ___freeGlyphRects3, int32_t* ___freeGlyphRectCount4, GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* ___usedGlyphRects5, int32_t* ___usedGlyphRectCount6, int32_t ___renderMode7, Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * ___texture8, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * ___glyph9, const RuntimeMethod* method);
-// System.Void UnityEngine.TextCore.Glyph::.ctor(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Glyph__ctor_mDE5144A797FA0EF0136512443E10B649F3D101BF (Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * __this, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  ___glyphStruct0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.UInt32>::get_Count()
 inline int32_t List_1_get_Count_m3E3E6FA980D3D675E1A5DF9D9C95657717425563_inline (List_1_t49B315A213A231954A3718D77EE3A2AFF443C38E * __this, const RuntimeMethod* method)
 {
@@ -3766,6 +3790,124 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t FontEngine_GetGlyphIndex_m9877A2238C
 	uint32_t retVal = _il2cpp_icall_func(___unicode0);
 	return retVal;
 }
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithUnicodeValue(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.Glyph&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithUnicodeValue_mBC940303E740DC1897FCA6247D048266298BE00C (uint32_t ___unicode0, int32_t ___flags1, Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** ___glyph2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FontEngine_TryGetGlyphWithUnicodeValue_mBC940303E740DC1897FCA6247D048266298BE00C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 ));
+		uint32_t L_0 = ___unicode0;
+		int32_t L_1 = ___flags1;
+		IL2CPP_RUNTIME_CLASS_INIT(FontEngine_t9316586F7FD894C97716C9C48AF485A137284FBC_il2cpp_TypeInfo_var);
+		bool L_2 = FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C(L_0, L_1, (GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 *)(&V_0), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** L_3 = ___glyph2;
+		GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  L_4 = V_0;
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * L_5 = (Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 *)il2cpp_codegen_object_new(Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4_il2cpp_TypeInfo_var);
+		Glyph__ctor_mDE5144A797FA0EF0136512443E10B649F3D101BF(L_5, L_4, /*hidden argument*/NULL);
+		*((RuntimeObject **)L_3) = (RuntimeObject *)L_5;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_3, (void*)(RuntimeObject *)L_5);
+		V_1 = (bool)1;
+		goto IL_0031;
+	}
+
+IL_0027:
+	{
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** L_6 = ___glyph2;
+		*((RuntimeObject **)L_6) = (RuntimeObject *)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_6, (void*)(RuntimeObject *)NULL);
+		V_1 = (bool)0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		bool L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithUnicodeValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C (uint32_t ___unicode0, int32_t ___loadFlags1, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * ___glyphStruct2, const RuntimeMethod* method)
+{
+	typedef bool (*FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C_ftn) (uint32_t, int32_t, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 *);
+	static FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (FontEngine_TryGetGlyphWithUnicodeValue_Internal_m8B4C9643A51BB4D3E1F83C7DDF593E9247D5A38C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithUnicodeValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)");
+	bool retVal = _il2cpp_icall_func(___unicode0, ___loadFlags1, ___glyphStruct2);
+	return retVal;
+}
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithIndexValue(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.Glyph&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithIndexValue_m75A9F7605232FAF4D9948E2E7BDFFB01A8FD5178 (uint32_t ___glyphIndex0, int32_t ___flags1, Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** ___glyph2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FontEngine_TryGetGlyphWithIndexValue_m75A9F7605232FAF4D9948E2E7BDFFB01A8FD5178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 ));
+		uint32_t L_0 = ___glyphIndex0;
+		int32_t L_1 = ___flags1;
+		IL2CPP_RUNTIME_CLASS_INIT(FontEngine_t9316586F7FD894C97716C9C48AF485A137284FBC_il2cpp_TypeInfo_var);
+		bool L_2 = FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170(L_0, L_1, (GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 *)(&V_0), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** L_3 = ___glyph2;
+		GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448  L_4 = V_0;
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * L_5 = (Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 *)il2cpp_codegen_object_new(Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4_il2cpp_TypeInfo_var);
+		Glyph__ctor_mDE5144A797FA0EF0136512443E10B649F3D101BF(L_5, L_4, /*hidden argument*/NULL);
+		*((RuntimeObject **)L_3) = (RuntimeObject *)L_5;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_3, (void*)(RuntimeObject *)L_5);
+		V_1 = (bool)1;
+		goto IL_0031;
+	}
+
+IL_0027:
+	{
+		Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 ** L_6 = ___glyph2;
+		*((RuntimeObject **)L_6) = (RuntimeObject *)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_6, (void*)(RuntimeObject *)NULL);
+		V_1 = (bool)0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		bool L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithIndexValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170 (uint32_t ___glyphIndex0, int32_t ___loadFlags1, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 * ___glyphStruct2, const RuntimeMethod* method)
+{
+	typedef bool (*FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170_ftn) (uint32_t, int32_t, GlyphMarshallingStruct_t4A13978D8A28D0D54B36F37557770DCD83219448 *);
+	static FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (FontEngine_TryGetGlyphWithIndexValue_Internal_mB4D0E3754E546E77B9F0D6C1A0A621C273B0D170_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithIndexValue_Internal(System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&)");
+	bool retVal = _il2cpp_icall_func(___glyphIndex0, ___loadFlags1, ___glyphStruct2);
+	return retVal;
+}
 // System.Boolean UnityEngine.TextCore.LowLevel.FontEngine::TryPackGlyphInAtlas(UnityEngine.TextCore.Glyph,System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect>,System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FontEngine_TryPackGlyphInAtlas_m0E9E8FBBC64AF69CB1DEB3C8A2EF862222C3B8EA (Glyph_t64B599C17F15D84707C46FE272E98B347E1283B4 * ___glyph0, int32_t ___padding1, int32_t ___packingMode2, int32_t ___renderMode3, int32_t ___width4, int32_t ___height5, List_1_tD87292C3DA9A1BCF7BE7A6A63897ABF69A015D65 * ___freeGlyphRects6, List_1_tD87292C3DA9A1BCF7BE7A6A63897ABF69A015D65 * ___usedGlyphRects7, const RuntimeMethod* method)
 {
@@ -5079,6 +5221,14 @@ IL2CPP_EXTERN_C  GlyphValueRecord_tC8C22AFC124DD2B4F0E9383A9C14AA8661359A5D  Gly
 	GlyphAdjustmentRecord_t771BE41EF0B790AF1E65928F401E3AB0EE548D00 * _thisAdjusted = reinterpret_cast<GlyphAdjustmentRecord_t771BE41EF0B790AF1E65928F401E3AB0EE548D00 *>(__this + 1);
 	return GlyphAdjustmentRecord_get_glyphValueRecord_m8F2643EF5E5FCD7683AF53BA831603817709E3CC(_thisAdjusted, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

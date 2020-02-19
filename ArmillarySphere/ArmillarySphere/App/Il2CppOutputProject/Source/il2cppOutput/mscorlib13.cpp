@@ -1344,6 +1344,7 @@ IL2CPP_EXTERN_C const uint32_t String_Compare_m99CC35260CCF4E79928E1769863EBA747
 IL2CPP_EXTERN_C const uint32_t String_Compare_mA1D43767F882FE677F238637A8785FCCEE7173D9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t String_Concat_m232E857CA5107EA6AC52E7DD7018716C021F237B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t String_Concat_m2E1F71C491D2429CC80A28745488FEA947BB7AAC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t String_Concat_m798542DE19B3F02DC4F4B777BB2E73169F129DE1_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t String_Concat_mB7BA84F13912303B2E5E40FBF0109E1A328ACA07_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t String_Concat_mBB19C73816BDD1C3519F248E1ADC8E11A6FDB495_MetadataUsageId;
@@ -13160,6 +13161,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_mAACB78E5DB76B756AA541CE1F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NumberFormatInfo_ValidateParseStyleFloatingPoint_mEC705C72BC013FB4A554725339A2617D9B4ECC07 (int32_t ___style0, const RuntimeMethod* method);
 // System.Single System.Number::ParseSingle(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Number_ParseSingle_mF8DD4A8C88973C759A7700C1A9B126566AFAFC4B (String_t* ___value0, int32_t ___options1, NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * ___numfmt2, const RuntimeMethod* method);
+// System.Boolean System.Single::TryParse(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.Single&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_TryParse_m1660A819EC2156DCFCC7833AF4CAA19C0B91BAC6 (String_t* ___s0, int32_t ___style1, NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * ___info2, float* ___result3, const RuntimeMethod* method);
+// System.Boolean System.Number::TryParseSingle(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.Single&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseSingle_m8BFCEBAF689D19500FA014CAC081D1614BD4A4C0 (String_t* ___value0, int32_t ___options1, NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * ___numfmt2, float* ___result3, const RuntimeMethod* method);
+// System.String System.String::Trim()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mB52EB7876C7132358B76B7DC95DEACA20722EF4D (String_t* __this, const RuntimeMethod* method);
+// System.String System.Globalization.NumberFormatInfo::get_PositiveInfinitySymbol()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_PositiveInfinitySymbol_m7602CB28ED33148275C2ED9CF8395241BF8E0F0A_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method);
+// System.String System.Globalization.NumberFormatInfo::get_NegativeInfinitySymbol()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NegativeInfinitySymbol_m8C1DDF6E543F2193CD0BE65F67175E4DECED1DB8_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method);
+// System.String System.Globalization.NumberFormatInfo::get_NaNSymbol()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NaNSymbol_m82326D3E16F9834D5138685A6956EE154944891E_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method);
 // System.TypeCode System.Single::GetTypeCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetTypeCode_m3AED7A651BCA30B93CADE00BD3873A20F516158F (float* __this, const RuntimeMethod* method);
 // System.Boolean System.Convert::ToBoolean(System.Single)
@@ -33809,6 +33822,116 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_mAACB78E5DB76B756AA541CE1F
 		return L_3;
 	}
 }
+// System.Boolean System.Single::TryParse(System.String,System.Single&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_TryParse_m548E9EC17193999C07717FECFAD0A907980D566C (String_t* ___s0, float* ___result1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___s0;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_1 = NumberFormatInfo_get_CurrentInfo_m595DF03E32E0C5B01F1EC45F7264B2BD09BA61C9(/*hidden argument*/NULL);
+		float* L_2 = ___result1;
+		bool L_3 = Single_TryParse_m1660A819EC2156DCFCC7833AF4CAA19C0B91BAC6(L_0, ((int32_t)231), L_1, (float*)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Boolean System.Single::TryParse(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.Single&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_TryParse_m1660A819EC2156DCFCC7833AF4CAA19C0B91BAC6 (String_t* ___s0, int32_t ___style1, NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * ___info2, float* ___result3, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = ___s0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		float* L_1 = ___result3;
+		*((float*)L_1) = (float)(0.0f);
+		return (bool)0;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___s0;
+		int32_t L_3 = ___style1;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_4 = ___info2;
+		float* L_5 = ___result3;
+		bool L_6 = Number_TryParseSingle_m8BFCEBAF689D19500FA014CAC081D1614BD4A4C0(L_2, L_3, L_4, (float*)L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		String_t* L_7 = ___s0;
+		NullCheck(L_7);
+		String_t* L_8 = String_Trim_mB52EB7876C7132358B76B7DC95DEACA20722EF4D(L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		String_t* L_9 = V_0;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_10 = ___info2;
+		NullCheck(L_10);
+		String_t* L_11 = NumberFormatInfo_get_PositiveInfinitySymbol_m7602CB28ED33148275C2ED9CF8395241BF8E0F0A_inline(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		bool L_12 = String_Equals_m9C4D78DFA0979504FE31429B64A4C26DF48020D1(L_9, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		float* L_13 = ___result3;
+		*((float*)L_13) = (float)(std::numeric_limits<float>::infinity());
+		goto IL_0065;
+	}
+
+IL_0035:
+	{
+		String_t* L_14 = V_0;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_15 = ___info2;
+		NullCheck(L_15);
+		String_t* L_16 = NumberFormatInfo_get_NegativeInfinitySymbol_m8C1DDF6E543F2193CD0BE65F67175E4DECED1DB8_inline(L_15, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		bool L_17 = String_Equals_m9C4D78DFA0979504FE31429B64A4C26DF48020D1(L_14, L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		float* L_18 = ___result3;
+		*((float*)L_18) = (float)(-std::numeric_limits<float>::infinity());
+		goto IL_0065;
+	}
+
+IL_004c:
+	{
+		String_t* L_19 = V_0;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_20 = ___info2;
+		NullCheck(L_20);
+		String_t* L_21 = NumberFormatInfo_get_NaNSymbol_m82326D3E16F9834D5138685A6956EE154944891E_inline(L_20, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		bool L_22 = String_Equals_m9C4D78DFA0979504FE31429B64A4C26DF48020D1(L_19, L_21, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		float* L_23 = ___result3;
+		*((float*)L_23) = (float)(std::numeric_limits<float>::quiet_NaN());
+		goto IL_0065;
+	}
+
+IL_0063:
+	{
+		return (bool)0;
+	}
+
+IL_0065:
+	{
+		return (bool)1;
+	}
+}
 // System.TypeCode System.Single::GetTypeCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetTypeCode_m3AED7A651BCA30B93CADE00BD3873A20F516158F (float* __this, const RuntimeMethod* method)
 {
@@ -42204,6 +42327,35 @@ IL_000e:
 		return L_6;
 	}
 }
+// System.String System.String::Concat(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m798542DE19B3F02DC4F4B777BB2E73169F129DE1 (RuntimeObject * ___arg00, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (String_Concat_m798542DE19B3F02DC4F4B777BB2E73169F129DE1_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject * L_0 = ___arg00;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		return L_1;
+	}
+
+IL_0009:
+	{
+		RuntimeObject * L_2 = ___arg00;
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		return L_3;
+	}
+}
 // System.String System.String::Concat(System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mBB19C73816BDD1C3519F248E1ADC8E11A6FDB495 (RuntimeObject * ___arg00, RuntimeObject * ___arg11, const RuntimeMethod* method)
 {
@@ -46717,6 +46869,27 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void Exception_set_HResult_m920DF8C72
 		int32_t L_0 = ___value0;
 		__this->set__HResult_11(L_0);
 		return;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_PositiveInfinitySymbol_m7602CB28ED33148275C2ED9CF8395241BF8E0F0A_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_positiveInfinitySymbol_13();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NegativeInfinitySymbol_m8C1DDF6E543F2193CD0BE65F67175E4DECED1DB8_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_negativeInfinitySymbol_14();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NaNSymbol_m82326D3E16F9834D5138685A6956EE154944891E_inline (NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_nanSymbol_12();
+		return L_0;
 	}
 }
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared_inline (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, const RuntimeMethod* method)

@@ -151,18 +151,18 @@ static const Il2CppTokenRangePair s_rgctxIndices[9] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
 {
-	{ (Il2CppRGCTXDataType)3, 38756 },
-	{ (Il2CppRGCTXDataType)3, 38757 },
-	{ (Il2CppRGCTXDataType)1, 38688 },
-	{ (Il2CppRGCTXDataType)3, 38758 },
-	{ (Il2CppRGCTXDataType)1, 38689 },
-	{ (Il2CppRGCTXDataType)3, 38759 },
-	{ (Il2CppRGCTXDataType)2, 39136 },
-	{ (Il2CppRGCTXDataType)2, 39137 },
-	{ (Il2CppRGCTXDataType)2, 39138 },
-	{ (Il2CppRGCTXDataType)2, 39139 },
-	{ (Il2CppRGCTXDataType)3, 38760 },
-	{ (Il2CppRGCTXDataType)2, 39140 },
+	{ (Il2CppRGCTXDataType)3, 39334 },
+	{ (Il2CppRGCTXDataType)3, 39335 },
+	{ (Il2CppRGCTXDataType)1, 39169 },
+	{ (Il2CppRGCTXDataType)3, 39336 },
+	{ (Il2CppRGCTXDataType)1, 39170 },
+	{ (Il2CppRGCTXDataType)3, 39337 },
+	{ (Il2CppRGCTXDataType)2, 39683 },
+	{ (Il2CppRGCTXDataType)2, 39684 },
+	{ (Il2CppRGCTXDataType)2, 39685 },
+	{ (Il2CppRGCTXDataType)2, 39686 },
+	{ (Il2CppRGCTXDataType)3, 39338 },
+	{ (Il2CppRGCTXDataType)2, 39687 },
 };
 extern const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystemCodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystemCodeGenModule = 

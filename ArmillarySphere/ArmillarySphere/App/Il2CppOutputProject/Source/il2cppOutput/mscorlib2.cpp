@@ -1241,6 +1241,7 @@ IL2CPP_EXTERN_C const uint32_t DateTime__cctor_mE95C20EB1DD6B449472701E37D593FBF
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m027A935E14EB81BCC0739BD56AE60CDE3387990C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m184FABF75B3C703A70200D760A7E43C60524630F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m399F434D85D918405F74C5B04BCBD8C1B410F10E_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m6567CDEB97E6541CE4AF8ADDC617CFF419D5A58E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_m8946C6F0EFB7933840C449A2C859B08101393A84_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DateTime__ctor_mF4506D7FF3B64F7EC739A36667DC8BC089A6539A_MetadataUsageId;
@@ -11487,6 +11488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTime_DateToTicks_m8315FA4947393A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_mF4506D7FF3B64F7EC739A36667DC8BC089A6539A (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, const RuntimeMethod* method);
 // System.Int64 System.DateTime::TimeToTicks(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTime_TimeToTicks_m38671AD5E9A1A1DE63AF5BAC980B0A0E8E67A5DB (int32_t ___hour0, int32_t ___minute1, int32_t ___second2, const RuntimeMethod* method);
+// System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667 (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, const RuntimeMethod* method);
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m6567CDEB97E6541CE4AF8ADDC617CFF419D5A58E (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, int32_t ___millisecond6, const RuntimeMethod* method);
 // System.Runtime.Serialization.SerializationInfoEnumerator System.Runtime.Serialization.SerializationInfo::GetEnumerator()
@@ -24509,6 +24512,34 @@ IL2CPP_EXTERN_C  void DateTime__ctor_mF4506D7FF3B64F7EC739A36667DC8BC089A6539A_A
 {
 	DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * _thisAdjusted = reinterpret_cast<DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 *>(__this + 1);
 	DateTime__ctor_mF4506D7FF3B64F7EC739A36667DC8BC089A6539A(_thisAdjusted, ___year0, ___month1, ___day2, method);
+}
+// System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667 (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___year0;
+		int32_t L_1 = ___month1;
+		int32_t L_2 = ___day2;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132_il2cpp_TypeInfo_var);
+		int64_t L_3 = DateTime_DateToTicks_m8315FA4947393A7ABDB9A9905EE6B0F11ECC6A64(L_0, L_1, L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___hour3;
+		int32_t L_5 = ___minute4;
+		int32_t L_6 = ___second5;
+		int64_t L_7 = DateTime_TimeToTicks_m38671AD5E9A1A1DE63AF5BAC980B0A0E8E67A5DB(L_4, L_5, L_6, /*hidden argument*/NULL);
+		__this->set_dateData_44(((int64_t)il2cpp_codegen_add((int64_t)L_3, (int64_t)L_7)));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667_AdjustorThunk (RuntimeObject * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, const RuntimeMethod* method)
+{
+	DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * _thisAdjusted = reinterpret_cast<DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 *>(__this + 1);
+	DateTime__ctor_m627486A7CFC2016C8A1646442155BE45A8062667(_thisAdjusted, ___year0, ___month1, ___day2, ___hour3, ___minute4, ___second5, method);
 }
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m6567CDEB97E6541CE4AF8ADDC617CFF419D5A58E (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, int32_t ___millisecond6, const RuntimeMethod* method)
