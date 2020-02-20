@@ -35,6 +35,7 @@ public class IterateThroughDay : MonoBehaviour
     {
         // Get the increment button
         UpdateTime time_text_script = increment_hour_button.GetComponent<UpdateTime>();
+        time_text_script.increment = true; // Ensures that you increment a day
         Action update_time = () => time_text_script.UpdateCurrentTime(); // Update function is a function which executes in and of
                                                                          // itself thus you need to convert it into an action 
                                                                          // for the coroutine.

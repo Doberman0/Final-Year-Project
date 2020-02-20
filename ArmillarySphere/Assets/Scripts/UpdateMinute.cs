@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class UpdateTime : MonoBehaviour
+public class UpdateMinute : MonoBehaviour
 {
-    public int current_hour;
+    public int current_minute;
 
     public bool increment; // true = increment, false = decrement 
 
@@ -28,11 +28,18 @@ public class UpdateTime : MonoBehaviour
     {
         // Initialising the clock
         TextMesh time_text = time_display.GetComponent<TextMesh>();
-        time_text.text = current_hour.ToString();
+        // Just a spot of formatting (i.e. minutes under 10 should look like 0x. E.g. 1 minute should look like 01)
+        if (current_minute < 10)
+        {
+            time_text.text = "0" + current_minute.ToString();
+        }  else
+        {
+            time_text.text = current_minute.ToString();
+        }
 
         // Updating sky simulator
         UltimateSky.UltimateSkyCalendar ultimate_sky_script = sky.GetComponent<UltimateSky.UltimateSkyCalendar>();
-        ultimate_sky_script.hourMinSec = new Vector3(current_hour, ultimate_sky_script.hourMinSec[1], ultimate_sky_script.hourMinSec[2]);
+        ultimate_sky_script.hourMinSec = new Vector3(ultimate_sky_script.hourMinSec[0], current_minute, ultimate_sky_script.hourMinSec[2]);
     }
 
     public void ButtonPressed()
@@ -53,34 +60,34 @@ public class UpdateTime : MonoBehaviour
 
         //if (!simulation_button_script.run_simulation) // No updates allowed whilst the simulation is running
         //{
-            if (increment)
+        if (increment)
+        {
+            current_minute = (current_minute + 1) % 60;
+        }
+        else
+        {
+            if (current_minute == 0)
             {
-                current_hour = (current_hour + 1) % 24;
+                current_minute = 59;
             }
             else
             {
-                if (current_hour == 0)
-                {
-                    current_hour = 23;
-                }   
-                else
-                {
-                    current_hour--;
-                } 
-            //current_hour = (current_hour - 1) % 24; // Mod doesn't work the same way as it does in mathematics
+                current_minute--;
             }
+            //current_hour = (current_hour - 1) % 24; // Mod doesn't work the same way as it does in mathematics
+        }
 
-            SetTimes();
+        SetTimes();
 
-            // Updating sky simulator
-            //UltimateSky.UltimateSkyCalendar ultimate_sky_script = sky.GetComponent<UltimateSky.UltimateSkyCalendar>();
-            //ultimate_sky_script.hourMinSec = new Vector3(current_hour, 0f, 0f);
+        // Updating sky simulator
+        //UltimateSky.UltimateSkyCalendar ultimate_sky_script = sky.GetComponent<UltimateSky.UltimateSkyCalendar>();
+        //ultimate_sky_script.hourMinSec = new Vector3(current_hour, 0f, 0f);
 
-            // Updating text shown
-            //TextMesh time_text = time_display.GetComponent<TextMesh>();
-            //time_text.text = current_hour.ToString();
+        // Updating text shown
+        //TextMesh time_text = time_display.GetComponent<TextMesh>();
+        //time_text.text = current_hour.ToString();
         //}
-        
+
     }
 
 }
