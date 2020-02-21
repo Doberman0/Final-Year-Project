@@ -6,6 +6,9 @@ using Microsoft.MixedReality.Toolkit.UI;
 
 public class ChangeDate : MonoBehaviour
 {
+    // Object to rotate - the armillary sphere
+    [SerializeField] GameObject arm_sphere;
+
     // Skylight 
     public GameObject skylight_object;
 
@@ -19,6 +22,13 @@ public class ChangeDate : MonoBehaviour
         // Extracting value from slider (you can only rotate by 360 degrees)
         PinchSlider pinch_slider_script = date_slider.GetComponent<PinchSlider>();
         float date_slider_val = (float)(365f*pinch_slider_script.SliderValue);
+
+        // Rotating the armillary sphere
+        arm_sphere.transform.localEulerAngles = new Vector3(
+            arm_sphere.transform.localEulerAngles[0],
+            date_slider_val,
+            arm_sphere.transform.localEulerAngles[2]
+            );
 
         // Get the date from the slider
         DateTime cur_date = GetDate(date_slider_val);

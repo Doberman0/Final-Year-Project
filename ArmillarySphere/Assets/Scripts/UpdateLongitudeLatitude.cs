@@ -6,6 +6,9 @@ using UltimateSky;
 
 public class UpdateLongitudeLatitude : MonoBehaviour
 {
+    // What we need to rotate. i.e. the armillary sphere itself
+    [SerializeField] GameObject arm_sphere;
+
     // Skylight 
     public GameObject skylight_object;
     
@@ -23,7 +26,14 @@ public class UpdateLongitudeLatitude : MonoBehaviour
         //ultimate_sky_script.SetLat((float)(pinch_slider_script.SliderValue * 180) - 90f);
 
         float lattitude_val = (float)(pinch_slider_script.SliderValue * 180) - 90f;
-        
+
+        // Rotating the armillary sphere
+        arm_sphere.transform.localEulerAngles = new Vector3(
+            arm_sphere.transform.localEulerAngles[0],
+            arm_sphere.transform.localEulerAngles[1],
+            lattitude_val
+            );
+
         // Updating the longitude of the skybox
         ultimate_sky_script.lonLat = new Vector2(ultimate_sky_script.lonLat[0], lattitude_val);
 
