@@ -58,10 +58,12 @@
 		<type fullname="Clock" preserve="nothing"/>
 		<type fullname="IterateThroughDay" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementHour" preserve="nothing"/>
+		<type fullname="SetIncrementDecrementMinute" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSky" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSkyCalendar" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSkyConfiguration" preserve="nothing"/>
 		<type fullname="UpdateLongitudeLatitude" preserve="nothing"/>
+		<type fullname="UpdateMinute" preserve="nothing"/>
 		<type fullname="UpdateTime" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality">

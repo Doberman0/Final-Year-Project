@@ -20,10 +20,10 @@ IL2CPP_EXTERN_C_END
 
 
 
-extern const Il2CppCodeGenModule g_System_Diagnostics_StackTraceCodeGenModule;
-const Il2CppCodeGenModule g_System_Diagnostics_StackTraceCodeGenModule = 
+extern const Il2CppCodeGenModule g_System_Runtime_HandlesCodeGenModule;
+const Il2CppCodeGenModule g_System_Runtime_HandlesCodeGenModule = 
 {
-	"System.Diagnostics.StackTrace.dll",
+	"System.Runtime.Handles.dll",
 	0,
 	NULL,
 	NULL,

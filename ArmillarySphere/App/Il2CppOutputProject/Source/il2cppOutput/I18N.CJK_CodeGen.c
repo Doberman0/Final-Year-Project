@@ -794,12 +794,12 @@ static const int32_t s_InvokerIndices[207] =
 	3,
 	23,
 	3,
-	2302,
+	2310,
 	203,
 	189,
 	238,
 	238,
-	2303,
+	2311,
 	21,
 	238,
 	23,
@@ -823,7 +823,7 @@ static const int32_t s_InvokerIndices[207] =
 	606,
 	9,
 	94,
-	2305,
+	2313,
 	608,
 	608,
 	23,
@@ -851,7 +851,7 @@ static const int32_t s_InvokerIndices[207] =
 	26,
 	35,
 	60,
-	2304,
+	2312,
 };
 extern const Il2CppCodeGenModule g_I18N_CJKCodeGenModule;
 const Il2CppCodeGenModule g_I18N_CJKCodeGenModule = 

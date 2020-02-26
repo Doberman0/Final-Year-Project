@@ -13728,7 +13728,7 @@ inline HolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652  Mar
 	return ((  HolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652  (*) (intptr_t, const RuntimeMethod*))Marshal_PtrToStructure_TisHolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652_mFC43D67ADD81630D24BE585B7B3F1EBDE6836C51_gshared)(___ptr0, method);
 }
 // Microsoft.Windows.Graphics.Holographic.HolographicFrame Microsoft.Windows.Graphics.Holographic.HolographicFrame::FromNativePtr(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * HolographicFrame_FromNativePtr_mB573AA6B93FF731E10F29165BCA6B5DD1C63884A (intptr_t ___thisPtr0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * HolographicFrame_FromNativePtr_mB63E93A6519945DFF65FBD0FEDDF9A018DD468D5 (intptr_t ___thisPtr0, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3__ctor_m08F61F548AA5836D8789843ACB4A81E4963D2EE1 (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method);
 // System.Void UnityEngine.Quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
@@ -14127,9 +14127,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsMixedRealityReprojectionUpdater_C
 // Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters Microsoft.Windows.Graphics.Holographic.HolographicFrame::GetRenderingParameters(Microsoft.Windows.Graphics.Holographic.HolographicCameraPose)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * HolographicFrame_GetRenderingParameters_mD559704CBCC03AE33B946B7CC2F21BA3B84AA36B (HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * __this, HolographicCameraPose_t8F9BEC2B5D85DCB935796F4192C908DBB05B8938 * ___cameraPose0, const RuntimeMethod* method);
 // System.Void Microsoft.Windows.Graphics.Holographic.HolographicCameraRenderingParameters::set_DepthReprojectionMethod(Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolographicCameraRenderingParameters_set_DepthReprojectionMethod_m46184E71FF37BBEE56DA58BF292E89FEC8132032 (HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * __this, int32_t ___value0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolographicCameraRenderingParameters_set_DepthReprojectionMethod_mC4945ECBD1882EE2EBE8220E5C9DB46D539070A7 (HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.UInt32 Microsoft.Windows.Graphics.Holographic.HolographicCamera::get_Id()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042 (HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HolographicCamera_get_Id_m9B17E95314C9334FFE64A356CAEF0BE5981895A2 (HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Boolean>::TryGetValue(!0,!1&)
 inline bool Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99 (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * __this, uint32_t ___key0, bool* ___value1, const RuntimeMethod* method)
 {
@@ -14150,7 +14150,7 @@ inline void Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3 (Dictio
 	((  void (*) (Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 *, const RuntimeMethod*))Dictionary_2__ctor_m3907265186AA84C23A6FE02F1D0A95027E5400C3_gshared)(__this, method);
 }
 // System.Boolean Microsoft.Windows.Foundation.Metadata.ApiInformation::IsPropertyPresent(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApiInformation_IsPropertyPresent_mFDEEADCCF422DA953BD9FF2251EAB120A0428249 (String_t* ___typeName0, String_t* ___propertyName1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApiInformation_IsPropertyPresent_m25509551618F567CE06FA7BDF898EAD7601379FC (String_t* ___typeName0, String_t* ___propertyName1, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mBA2AF20A35144E0C43CD721A22EAC9FCA15D6550 (const RuntimeMethod* method);
 #ifdef __clang__
@@ -24592,7 +24592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HolographicFrame_tF25757D2371405FC61221E3F1FD
 		HolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652  L_1 = Marshal_PtrToStructure_TisHolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652_mFC43D67ADD81630D24BE585B7B3F1EBDE6836C51((intptr_t)L_0, /*hidden argument*/Marshal_PtrToStructure_TisHolographicFrameNativeData_tBE75168EF151C1F100EF3FDBFCA0F4B7AB082652_mFC43D67ADD81630D24BE585B7B3F1EBDE6836C51_RuntimeMethod_var);
 		// return HolographicFrame.FromNativePtr(hfd.IHolographicFramePtr);
 		intptr_t L_2 = L_1.get_IHolographicFramePtr_3();
-		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_3 = HolographicFrame_FromNativePtr_mB573AA6B93FF731E10F29165BCA6B5DD1C63884A((intptr_t)L_2, /*hidden argument*/NULL);
+		HolographicFrame_tF25757D2371405FC61221E3F1FD5073430822F17 * L_3 = HolographicFrame_FromNativePtr_mB63E93A6519945DFF65FBD0FEDDF9A018DD468D5((intptr_t)L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -27818,7 +27818,7 @@ IL_0044:
 			HolographicCameraRenderingParameters_t379705AF2EBB949BA5CE7837BC13627218E940DB * L_15 = HolographicFrame_GetRenderingParameters_mD559704CBCC03AE33B946B7CC2F21BA3B84AA36B(L_13, L_14, /*hidden argument*/NULL);
 			// renderingParams.DepthReprojectionMethod = Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod.AutoPlanar;
 			NullCheck(L_15);
-			HolographicCameraRenderingParameters_set_DepthReprojectionMethod_m46184E71FF37BBEE56DA58BF292E89FEC8132032(L_15, 1, /*hidden argument*/NULL);
+			HolographicCameraRenderingParameters_set_DepthReprojectionMethod_mC4945ECBD1882EE2EBE8220E5C9DB46D539070A7(L_15, 1, /*hidden argument*/NULL);
 		}
 
 IL_0051:
@@ -27903,7 +27903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsMixedRealityReprojectionUpdater_C
 		Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * L_0 = __this->get_cameraIdToSupportsAutoPlanar_5();
 		HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_1 = ___camera0;
 		NullCheck(L_1);
-		uint32_t L_2 = HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042(L_1, /*hidden argument*/NULL);
+		uint32_t L_2 = HolographicCamera_get_Id_m9B17E95314C9334FFE64A356CAEF0BE5981895A2(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3 = Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99(L_0, L_2, (bool*)(&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m9C38C127BE9FC3995C477BE20D8FCCF030764B99_RuntimeMethod_var);
 		if (L_3)
@@ -28008,7 +28008,7 @@ IL_004b:
 		Dictionary_2_t7A223AB4ABB8DBDCA019F46428591CF3E5D1D062 * L_14 = __this->get_cameraIdToSupportsAutoPlanar_5();
 		HolographicCamera_tA958E13A2E6A57C23314959C51AF781B838A0D74 * L_15 = ___camera0;
 		NullCheck(L_15);
-		uint32_t L_16 = HolographicCamera_get_Id_m58CD77D907303BC049F5E6093B63E4CC57C93042(L_15, /*hidden argument*/NULL);
+		uint32_t L_16 = HolographicCamera_get_Id_m9B17E95314C9334FFE64A356CAEF0BE5981895A2(L_15, /*hidden argument*/NULL);
 		bool L_17 = V_0;
 		NullCheck(L_14);
 		Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300(L_14, L_16, L_17, /*hidden argument*/Dictionary_2_Add_m63FBD1011F3AB0796640110B11DC99ACB110C300_RuntimeMethod_var);
@@ -28051,7 +28051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityReprojectionUpdater__
 	{
 		// private static readonly bool isDepthReprojectionModeSupported = ApiInformation.IsPropertyPresent("Windows.Graphics.Holographic.HolographicCameraRenderingParameters", "DepthReprojectionMethod");
 		IL2CPP_RUNTIME_CLASS_INIT(ApiInformation_t2F10D2F90AF403CD8A6E212D626EF65FBD69C2AE_il2cpp_TypeInfo_var);
-		bool L_0 = ApiInformation_IsPropertyPresent_mFDEEADCCF422DA953BD9FF2251EAB120A0428249(_stringLiteral7AC427E5B4760371CF97C55C5DDAE783E9FEBA3E, _stringLiteralE54C5D56F2100F8CDC5708147E8855998AB2FEEC, /*hidden argument*/NULL);
+		bool L_0 = ApiInformation_IsPropertyPresent_m25509551618F567CE06FA7BDF898EAD7601379FC(_stringLiteral7AC427E5B4760371CF97C55C5DDAE783E9FEBA3E, _stringLiteralE54C5D56F2100F8CDC5708147E8855998AB2FEEC, /*hidden argument*/NULL);
 		((WindowsMixedRealityReprojectionUpdater_t07903E0BB3907D681BDE7B8E43E61D11F67ABF03_StaticFields*)il2cpp_codegen_static_fields_for(WindowsMixedRealityReprojectionUpdater_t07903E0BB3907D681BDE7B8E43E61D11F67ABF03_il2cpp_TypeInfo_var))->set_isDepthReprojectionModeSupported_6(L_0);
 		return;
 	}

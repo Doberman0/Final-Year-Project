@@ -20915,6 +20915,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeInfo__ctor_m90553BFFBD15E94439312991
 		return;
 	}
 }
+// System.Reflection.TypeInfo System.Reflection.TypeInfo::System.Reflection.IReflectableType.GetTypeInfo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TypeInfo_t9D6F65801A41B97F36138B15FD270A1550DBB3FC * TypeInfo_System_Reflection_IReflectableType_GetTypeInfo_m8FF3083C248B944CFBAA0B767D2A4A8C0E84E407 (TypeInfo_t9D6F65801A41B97F36138B15FD270A1550DBB3FC * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

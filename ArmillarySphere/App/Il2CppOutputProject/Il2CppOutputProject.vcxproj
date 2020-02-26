@@ -131,15 +131,11 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib_CodeGen.c">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\netstandard_CodeGen.c">
+    <ClCompile Include="Source\il2cppOutput\System.Collections_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Configuration_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Core_CodeGen.c">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\System.Diagnostics.StackTrace_CodeGen.c">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\System.Globalization.Extensions_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Numerics.Vectors_CodeGen.c">
     </ClCompile>
@@ -147,13 +143,25 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.ObjectModel_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Reflection_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Extensions_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Handles_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices.WindowsRuntime_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Threading.Tasks_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Threading_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Xml_CodeGen.c">
     </ClCompile>
@@ -567,7 +575,7 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib9.cpp">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\netstandard.cpp">
+    <ClCompile Include="Source\il2cppOutput\System.Collections.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Configuration.cpp">
     </ClCompile>
@@ -575,17 +583,21 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.cpp">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\System.Diagnostics.StackTrace.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\System.Globalization.Extensions.cpp">
-    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Numerics.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Numerics.Vectors.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.ObjectModel.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Reflection.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Extensions.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Handles.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices.WindowsRuntime.cpp">
     </ClCompile>
@@ -593,6 +605,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime.UI.Xaml.cpp">
       <DependentUpon>System.Runtime.WindowsRuntime.UI.Xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Threading.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Threading.Tasks.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Xml.cpp">
     </ClCompile>

@@ -17956,6 +17956,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOleVariantTypeException__ctor_mB7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.IntPtr System.Runtime.InteropServices.Marshal::AllocCoTaskMem(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_AllocCoTaskMem_mD834304A9F50F5440A526BD0E68B7D24976985D1 (int32_t ___cb0, const RuntimeMethod* method)
+{
+	typedef intptr_t (*Marshal_AllocCoTaskMem_mD834304A9F50F5440A526BD0E68B7D24976985D1_ftn) (int32_t);
+	using namespace il2cpp::icalls;
+	return  ((Marshal_AllocCoTaskMem_mD834304A9F50F5440A526BD0E68B7D24976985D1_ftn)mscorlib::System::Runtime::InteropServices::Marshal::AllocCoTaskMem) (___cb0);
+}
 // System.IntPtr System.Runtime.InteropServices.Marshal::AllocHGlobal(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_AllocHGlobal_m1700535FE6D7CF1410010D9B3553A5A6E06DE70C (intptr_t ___cb0, const RuntimeMethod* method)
 {
@@ -18031,6 +18038,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_FreeBSTR_mB3CD149620B05C68BBC209
 	typedef void (*Marshal_FreeBSTR_mB3CD149620B05C68BBC20931307564BADDE71A25_ftn) (intptr_t);
 	using namespace il2cpp::icalls;
 	 ((Marshal_FreeBSTR_mB3CD149620B05C68BBC20931307564BADDE71A25_ftn)mscorlib::System::Runtime::InteropServices::Marshal::FreeBSTR) (___ptr0);
+}
+// System.Void System.Runtime.InteropServices.Marshal::FreeCoTaskMem(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_FreeCoTaskMem_m7C88C0999A166E61A38FF25527CD5E339F6AC590 (intptr_t ___ptr0, const RuntimeMethod* method)
+{
+	typedef void (*Marshal_FreeCoTaskMem_m7C88C0999A166E61A38FF25527CD5E339F6AC590_ftn) (intptr_t);
+	using namespace il2cpp::icalls;
+	 ((Marshal_FreeCoTaskMem_m7C88C0999A166E61A38FF25527CD5E339F6AC590_ftn)mscorlib::System::Runtime::InteropServices::Marshal::FreeCoTaskMem) (___ptr0);
 }
 // System.Int32 System.Runtime.InteropServices.Marshal::GetHRForException(System.Exception)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Marshal_GetHRForException_mD98B9590F687032E11879D9832559C7582C53FB3 (Exception_t * ___e0, const RuntimeMethod* method)

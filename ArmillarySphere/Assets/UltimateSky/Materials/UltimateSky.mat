@@ -85,21 +85,21 @@ Material:
     - _Darkness: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EclipticLongitude: 124.27711
+    - _EclipticLongitude: 124.27729
     - _EnableAtmosphere: 1
     - _EnableClouds: 0
     - _EnableGround: 1
     - _Exposure: 1.3
     - _Glossiness: 0.5
-    - _LightPhase: 0.8186456
-    - _LocalMeanSiderealTime: 2.1594605
+    - _LightPhase: 0.8186639
+    - _LocalMeanSiderealTime: 2.160544
     - _Metallic: 0
     - _MirrorCube: 0
     - _Mode: 0
     - _ObliquityEcliptic: 23.438915
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Phase: 0.5000019
+    - _Phase: 0.50017405
     - _SrcBlend: 1
     - _StarsBlend: 1
     - _StarsExposure: 1

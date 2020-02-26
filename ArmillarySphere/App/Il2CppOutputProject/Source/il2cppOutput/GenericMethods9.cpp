@@ -601,12 +601,16 @@ struct _GetMany_tEAB740BE5A2905849D9AD41532824523A283E3BC;
 struct _IndexOf_t7D9B6E236EBFA297485954AC3A121DFDCA3C4F1D;
 // WinRT.Interop._get_PropertyAsBool
 struct _get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00;
+// WinRT.Interop._get_PropertyAsDouble
+struct _get_PropertyAsDouble_t4D0422F0D2BA8F26645F0E3E969BDD6B0035B4A1;
 // WinRT.Interop._get_PropertyAsEnum
 struct _get_PropertyAsEnum_t0257BEDDE1C77D21D218D061D82E17FD70AC297E;
 // WinRT.Interop._get_PropertyAsObject
 struct _get_PropertyAsObject_t9C6553F25D625D4A390DCFC6F23AE4636C2E9AC5;
 // WinRT.Interop._get_PropertyAsUInt
 struct _get_PropertyAsUInt_tCFA62F9320D71C6B553719CDC0739A4CE48952CB;
+// WinRT.Interop._put_PropertyAsBool
+struct _put_PropertyAsBool_t94FF4C003B788F9F24DED1B86B8C8AFCF2BDDA85;
 // WinRT.Interop._put_PropertyAsEnum
 struct _put_PropertyAsEnum_t3747ECFF3C1C212EB95AE3A0B75CBC81E65441A6;
 
@@ -15569,8 +15573,35 @@ struct Vftbl_tB4F3D1FB227AF402988D61A7D8F3CF04D6BCE1CA_marshaled_com
 struct  Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E 
 {
 public:
+	static const Il2CppGuid CLSID;
+
+public:
 	// WinRT.Interop.IInspectableVftbl Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::IInspectableVftbl
 	IInspectableVftbl_tC802663F935125C7F12A6FAAFD35CB9CC0A70E32  ___IInspectableVftbl_0;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_NativeRenderTargetSize
+	intptr_t ___get_NativeRenderTargetSize_1;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_RenderTargetSize
+	intptr_t ___get_RenderTargetSize_2;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::RequestRenderTargetSize
+	intptr_t ___RequestRenderTargetSize_3;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_SupportedPixelFormats
+	intptr_t ___get_SupportedPixelFormats_4;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_PixelFormat
+	intptr_t ___get_PixelFormat_5;
+	// System.IntPtr Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::put_PixelFormat
+	intptr_t ___put_PixelFormat_6;
+	// WinRT.Interop._get_PropertyAsBool Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_IsStereo
+	_get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * ___get_IsStereo_7;
+	// WinRT.Interop._get_PropertyAsDouble Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_RefreshRate
+	_get_PropertyAsDouble_t4D0422F0D2BA8F26645F0E3E969BDD6B0035B4A1 * ___get_RefreshRate_8;
+	// WinRT.Interop._get_PropertyAsEnum Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_Kind
+	_get_PropertyAsEnum_t0257BEDDE1C77D21D218D061D82E17FD70AC297E * ___get_Kind_9;
+	// WinRT.Interop._get_PropertyAsObject Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_Display
+	_get_PropertyAsObject_t9C6553F25D625D4A390DCFC6F23AE4636C2E9AC5 * ___get_Display_10;
+	// WinRT.Interop._get_PropertyAsBool Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::get_IsEnabled
+	_get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * ___get_IsEnabled_11;
+	// WinRT.Interop._put_PropertyAsBool Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration_Vftbl::put_IsEnabled
+	_put_PropertyAsBool_t94FF4C003B788F9F24DED1B86B8C8AFCF2BDDA85 * ___put_IsEnabled_12;
 
 public:
 	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___IInspectableVftbl_0)); }
@@ -15596,17 +15627,143 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
 		#endif
 	}
+
+	inline static int32_t get_offset_of_get_NativeRenderTargetSize_1() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_NativeRenderTargetSize_1)); }
+	inline intptr_t get_get_NativeRenderTargetSize_1() const { return ___get_NativeRenderTargetSize_1; }
+	inline intptr_t* get_address_of_get_NativeRenderTargetSize_1() { return &___get_NativeRenderTargetSize_1; }
+	inline void set_get_NativeRenderTargetSize_1(intptr_t value)
+	{
+		___get_NativeRenderTargetSize_1 = value;
+	}
+
+	inline static int32_t get_offset_of_get_RenderTargetSize_2() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_RenderTargetSize_2)); }
+	inline intptr_t get_get_RenderTargetSize_2() const { return ___get_RenderTargetSize_2; }
+	inline intptr_t* get_address_of_get_RenderTargetSize_2() { return &___get_RenderTargetSize_2; }
+	inline void set_get_RenderTargetSize_2(intptr_t value)
+	{
+		___get_RenderTargetSize_2 = value;
+	}
+
+	inline static int32_t get_offset_of_RequestRenderTargetSize_3() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___RequestRenderTargetSize_3)); }
+	inline intptr_t get_RequestRenderTargetSize_3() const { return ___RequestRenderTargetSize_3; }
+	inline intptr_t* get_address_of_RequestRenderTargetSize_3() { return &___RequestRenderTargetSize_3; }
+	inline void set_RequestRenderTargetSize_3(intptr_t value)
+	{
+		___RequestRenderTargetSize_3 = value;
+	}
+
+	inline static int32_t get_offset_of_get_SupportedPixelFormats_4() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_SupportedPixelFormats_4)); }
+	inline intptr_t get_get_SupportedPixelFormats_4() const { return ___get_SupportedPixelFormats_4; }
+	inline intptr_t* get_address_of_get_SupportedPixelFormats_4() { return &___get_SupportedPixelFormats_4; }
+	inline void set_get_SupportedPixelFormats_4(intptr_t value)
+	{
+		___get_SupportedPixelFormats_4 = value;
+	}
+
+	inline static int32_t get_offset_of_get_PixelFormat_5() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_PixelFormat_5)); }
+	inline intptr_t get_get_PixelFormat_5() const { return ___get_PixelFormat_5; }
+	inline intptr_t* get_address_of_get_PixelFormat_5() { return &___get_PixelFormat_5; }
+	inline void set_get_PixelFormat_5(intptr_t value)
+	{
+		___get_PixelFormat_5 = value;
+	}
+
+	inline static int32_t get_offset_of_put_PixelFormat_6() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___put_PixelFormat_6)); }
+	inline intptr_t get_put_PixelFormat_6() const { return ___put_PixelFormat_6; }
+	inline intptr_t* get_address_of_put_PixelFormat_6() { return &___put_PixelFormat_6; }
+	inline void set_put_PixelFormat_6(intptr_t value)
+	{
+		___put_PixelFormat_6 = value;
+	}
+
+	inline static int32_t get_offset_of_get_IsStereo_7() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_IsStereo_7)); }
+	inline _get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * get_get_IsStereo_7() const { return ___get_IsStereo_7; }
+	inline _get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 ** get_address_of_get_IsStereo_7() { return &___get_IsStereo_7; }
+	inline void set_get_IsStereo_7(_get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * value)
+	{
+		___get_IsStereo_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_IsStereo_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_get_RefreshRate_8() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_RefreshRate_8)); }
+	inline _get_PropertyAsDouble_t4D0422F0D2BA8F26645F0E3E969BDD6B0035B4A1 * get_get_RefreshRate_8() const { return ___get_RefreshRate_8; }
+	inline _get_PropertyAsDouble_t4D0422F0D2BA8F26645F0E3E969BDD6B0035B4A1 ** get_address_of_get_RefreshRate_8() { return &___get_RefreshRate_8; }
+	inline void set_get_RefreshRate_8(_get_PropertyAsDouble_t4D0422F0D2BA8F26645F0E3E969BDD6B0035B4A1 * value)
+	{
+		___get_RefreshRate_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_RefreshRate_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_get_Kind_9() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_Kind_9)); }
+	inline _get_PropertyAsEnum_t0257BEDDE1C77D21D218D061D82E17FD70AC297E * get_get_Kind_9() const { return ___get_Kind_9; }
+	inline _get_PropertyAsEnum_t0257BEDDE1C77D21D218D061D82E17FD70AC297E ** get_address_of_get_Kind_9() { return &___get_Kind_9; }
+	inline void set_get_Kind_9(_get_PropertyAsEnum_t0257BEDDE1C77D21D218D061D82E17FD70AC297E * value)
+	{
+		___get_Kind_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_Kind_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_get_Display_10() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_Display_10)); }
+	inline _get_PropertyAsObject_t9C6553F25D625D4A390DCFC6F23AE4636C2E9AC5 * get_get_Display_10() const { return ___get_Display_10; }
+	inline _get_PropertyAsObject_t9C6553F25D625D4A390DCFC6F23AE4636C2E9AC5 ** get_address_of_get_Display_10() { return &___get_Display_10; }
+	inline void set_get_Display_10(_get_PropertyAsObject_t9C6553F25D625D4A390DCFC6F23AE4636C2E9AC5 * value)
+	{
+		___get_Display_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_Display_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_get_IsEnabled_11() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___get_IsEnabled_11)); }
+	inline _get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * get_get_IsEnabled_11() const { return ___get_IsEnabled_11; }
+	inline _get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 ** get_address_of_get_IsEnabled_11() { return &___get_IsEnabled_11; }
+	inline void set_get_IsEnabled_11(_get_PropertyAsBool_t88143D7CF39AE3D75F67EABA072B7D0E8167BF00 * value)
+	{
+		___get_IsEnabled_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_IsEnabled_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_put_IsEnabled_12() { return static_cast<int32_t>(offsetof(Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E, ___put_IsEnabled_12)); }
+	inline _put_PropertyAsBool_t94FF4C003B788F9F24DED1B86B8C8AFCF2BDDA85 * get_put_IsEnabled_12() const { return ___put_IsEnabled_12; }
+	inline _put_PropertyAsBool_t94FF4C003B788F9F24DED1B86B8C8AFCF2BDDA85 ** get_address_of_put_IsEnabled_12() { return &___put_IsEnabled_12; }
+	inline void set_put_IsEnabled_12(_put_PropertyAsBool_t94FF4C003B788F9F24DED1B86B8C8AFCF2BDDA85 * value)
+	{
+		___put_IsEnabled_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___put_IsEnabled_12), (void*)value);
+	}
 };
 
 // Native definition for P/Invoke marshalling of Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration/Vftbl
 struct Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E_marshaled_pinvoke
 {
 	IInspectableVftbl_tC802663F935125C7F12A6FAAFD35CB9CC0A70E32_marshaled_pinvoke ___IInspectableVftbl_0;
+	intptr_t ___get_NativeRenderTargetSize_1;
+	intptr_t ___get_RenderTargetSize_2;
+	intptr_t ___RequestRenderTargetSize_3;
+	intptr_t ___get_SupportedPixelFormats_4;
+	intptr_t ___get_PixelFormat_5;
+	intptr_t ___put_PixelFormat_6;
+	Il2CppMethodPointer ___get_IsStereo_7;
+	Il2CppMethodPointer ___get_RefreshRate_8;
+	Il2CppMethodPointer ___get_Kind_9;
+	Il2CppMethodPointer ___get_Display_10;
+	Il2CppMethodPointer ___get_IsEnabled_11;
+	Il2CppMethodPointer ___put_IsEnabled_12;
 };
 // Native definition for COM marshalling of Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration/Vftbl
 struct Vftbl_t6FA8CFF602EF76724357CF7F7106DA70DC03E70E_marshaled_com
 {
 	IInspectableVftbl_tC802663F935125C7F12A6FAAFD35CB9CC0A70E32_marshaled_com ___IInspectableVftbl_0;
+	intptr_t ___get_NativeRenderTargetSize_1;
+	intptr_t ___get_RenderTargetSize_2;
+	intptr_t ___RequestRenderTargetSize_3;
+	intptr_t ___get_SupportedPixelFormats_4;
+	intptr_t ___get_PixelFormat_5;
+	intptr_t ___put_PixelFormat_6;
+	Il2CppMethodPointer ___get_IsStereo_7;
+	Il2CppMethodPointer ___get_RefreshRate_8;
+	Il2CppMethodPointer ___get_Kind_9;
+	Il2CppMethodPointer ___get_Display_10;
+	Il2CppMethodPointer ___get_IsEnabled_11;
+	Il2CppMethodPointer ___put_IsEnabled_12;
 };
 
 // Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2_Vftbl

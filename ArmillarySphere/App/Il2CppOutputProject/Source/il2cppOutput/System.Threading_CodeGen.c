@@ -20,10 +20,10 @@ IL2CPP_EXTERN_C_END
 
 
 
-extern const Il2CppCodeGenModule g_System_Globalization_ExtensionsCodeGenModule;
-const Il2CppCodeGenModule g_System_Globalization_ExtensionsCodeGenModule = 
+extern const Il2CppCodeGenModule g_System_ThreadingCodeGenModule;
+const Il2CppCodeGenModule g_System_ThreadingCodeGenModule = 
 {
-	"System.Globalization.Extensions.dll",
+	"System.Threading.dll",
 	0,
 	NULL,
 	NULL,

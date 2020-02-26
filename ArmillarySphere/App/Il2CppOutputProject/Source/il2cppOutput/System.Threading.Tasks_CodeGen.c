@@ -20,10 +20,10 @@ IL2CPP_EXTERN_C_END
 
 
 
-extern const Il2CppCodeGenModule g_netstandardCodeGenModule;
-const Il2CppCodeGenModule g_netstandardCodeGenModule = 
+extern const Il2CppCodeGenModule g_System_Threading_TasksCodeGenModule;
+const Il2CppCodeGenModule g_System_Threading_TasksCodeGenModule = 
 {
-	"netstandard.dll",
+	"System.Threading.Tasks.dll",
 	0,
 	NULL,
 	NULL,
