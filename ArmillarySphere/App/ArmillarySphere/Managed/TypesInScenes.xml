@@ -34,6 +34,7 @@
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
@@ -43,6 +44,7 @@
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
@@ -52,6 +54,7 @@
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoClip" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ChangeDate" preserve="nothing"/>
@@ -59,6 +62,7 @@
 		<type fullname="IterateThroughDay" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementHour" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementMinute" preserve="nothing"/>
+		<type fullname="TurnOnOffTutorial" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSky" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSkyCalendar" preserve="nothing"/>
 		<type fullname="UltimateSky.UltimateSkyConfiguration" preserve="nothing"/>

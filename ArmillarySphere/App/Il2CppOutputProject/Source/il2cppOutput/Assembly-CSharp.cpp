@@ -137,6 +137,8 @@ struct Type_t;
 struct TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F;
 // System.Void
 struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
+// TurnOnOffTutorial
+struct TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA;
 // UltimateSky.CSVReader
 struct CSVReader_t09FE0C53865186AE9180BD118BF3F3BC9DD480D4;
 // UltimateSky.Demo.CameraLook
@@ -4445,6 +4447,35 @@ public:
 };
 
 
+// TurnOnOffTutorial
+struct  TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+{
+public:
+	// System.Boolean TurnOnOffTutorial::video_on
+	bool ___video_on_4;
+	// UnityEngine.GameObject TurnOnOffTutorial::video_player
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___video_player_5;
+
+public:
+	inline static int32_t get_offset_of_video_on_4() { return static_cast<int32_t>(offsetof(TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA, ___video_on_4)); }
+	inline bool get_video_on_4() const { return ___video_on_4; }
+	inline bool* get_address_of_video_on_4() { return &___video_on_4; }
+	inline void set_video_on_4(bool value)
+	{
+		___video_on_4 = value;
+	}
+
+	inline static int32_t get_offset_of_video_player_5() { return static_cast<int32_t>(offsetof(TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA, ___video_player_5)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_video_player_5() const { return ___video_player_5; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_video_player_5() { return &___video_player_5; }
+	inline void set_video_player_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		___video_player_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___video_player_5), (void*)value);
+	}
+};
+
+
 // UltimateSky.Demo.CameraLook
 struct  CameraLook_t2B789CCD44C55123C537E95F452C3DE18C17F28A  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
 {
@@ -7822,6 +7853,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_m3EC94482B2585FE03AEEDF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m2B1556CFBBD088D285A0B0EA280F82D3A4344DC3 (float* __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708 (RuntimeObject * ___message0, const RuntimeMethod* method);
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m25A39F6D9FB68C51F13313F9804E85ACC937BC04 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, bool ___value0, const RuntimeMethod* method);
 // UnityEngine.Object UnityEngine.Resources::Load(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * Resources_Load_mDBE6B83A74A52A1A6F5A68F7E5BC112DBB81B3C1 (String_t* ___path0, const RuntimeMethod* method);
 // System.String UnityEngine.TextAsset::get_text()
@@ -9343,6 +9376,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimulateSunMoon__cctor_mB5FC94BA43EB513A
 	{
 		// private static bool dst = true; // Day Light Savings
 		((SimulateSunMoon_tF6D90B2E15F36C11B67AB77DEBE988ABA4C9FD30_StaticFields*)il2cpp_codegen_static_fields_for(SimulateSunMoon_tF6D90B2E15F36C11B67AB77DEBE988ABA4C9FD30_il2cpp_TypeInfo_var))->set_dst_13((bool)1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void TurnOnOffTutorial::ToggleVideo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TurnOnOffTutorial_ToggleVideo_m1E349D6FFE86CCC1FBC394A92DA3A30998F414A7 (TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA * __this, const RuntimeMethod* method)
+{
+	{
+		// video_player.SetActive(video_on);
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = __this->get_video_player_5();
+		bool L_1 = __this->get_video_on_4();
+		NullCheck(L_0);
+		GameObject_SetActive_m25A39F6D9FB68C51F13313F9804E85ACC937BC04(L_0, L_1, /*hidden argument*/NULL);
+		// video_on = !video_on;
+		bool L_2 = __this->get_video_on_4();
+		__this->set_video_on_4((bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0));
+		// }
+		return;
+	}
+}
+// System.Void TurnOnOffTutorial::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TurnOnOffTutorial__ctor_m05E5BF1FCC0F247F727037E9AE77F28A44718933 (TurnOnOffTutorial_tB6B5508F9007E4E3EFF260CC463CFE69BDB055DA * __this, const RuntimeMethod* method)
+{
+	{
+		// private bool video_on = true;
+		__this->set_video_on_4((bool)1);
+		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
