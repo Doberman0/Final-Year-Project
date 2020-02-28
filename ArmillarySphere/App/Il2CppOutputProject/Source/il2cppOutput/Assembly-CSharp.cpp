@@ -523,14 +523,14 @@ public:
 struct  U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055  : public RuntimeObject
 {
 public:
-	// UpdateTime IterateThroughDay_<>c__DisplayClass3_0::time_text_script
-	UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * ___time_text_script_0;
+	// UpdateMinute IterateThroughDay_<>c__DisplayClass3_0::time_text_script
+	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * ___time_text_script_0;
 
 public:
 	inline static int32_t get_offset_of_time_text_script_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055, ___time_text_script_0)); }
-	inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * get_time_text_script_0() const { return ___time_text_script_0; }
-	inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB ** get_address_of_time_text_script_0() { return &___time_text_script_0; }
-	inline void set_time_text_script_0(UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * value)
+	inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * get_time_text_script_0() const { return ___time_text_script_0; }
+	inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 ** get_address_of_time_text_script_0() { return &___time_text_script_0; }
+	inline void set_time_text_script_0(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * value)
 	{
 		___time_text_script_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___time_text_script_0), (void*)value);
@@ -7793,10 +7793,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_m16F98FC9BA931581236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeMethodU3Ed__2__ctor_mBD07C56721F59D804E819EC2E0C5B42FE905263C (U3CInvokeMethodU3Ed__2_t2EB956BB0AC5A8EEBE1145E78F850D156B0BBFDB * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void IterateThroughDay/<>c__DisplayClass3_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_mE1ECF8E9417857F56EB3E13B58440D3B5F6AFC58 (U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055 * __this, const RuntimeMethod* method);
-// !!0 UnityEngine.GameObject::GetComponent<UpdateTime>()
-inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
+// !!0 UnityEngine.GameObject::GetComponent<UpdateMinute>()
+inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * GameObject_GetComponent_TisUpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3_mB8A29384D91B2BE01CBAA243B9DE5F1A43EB7BDD (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
+	return ((  UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
 }
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760 (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
@@ -7806,8 +7806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IterateThroughDay_InvokeMethod
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_tAE7DB2FC70A0AE6477F896F852057CB0754F06EC * MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7 (MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0 (RuntimeObject * __this, const RuntimeMethod* method);
-// System.Void UpdateTime::UpdateCurrentTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateTime_UpdateCurrentTime_m171EC199922061B4A396AD2E98FA8E110CB7F906 (UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * __this, const RuntimeMethod* method);
+// System.Void UpdateMinute::UpdateCurrentTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateCurrentTime_mA856F5171235671F63E0C79F53F4093F57BE593D (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, const RuntimeMethod* method);
 // System.Void System.Action::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_mC8D676E5DDF967EC5D23DD0E96FB52AA499817FD (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
@@ -7834,13 +7834,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetTriangles_mE0345D985099C3A4911A3D8ABD35F41C3AD65B8E (Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * __this, Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* ___triangles0, int32_t ___submesh1, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Mesh::get_subMeshCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mesh_get_subMeshCount_m6BE7CFB52CE84AEE45B4E5A704E865954397F52F (Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::GetComponent<UpdateTime>()
+inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
+{
+	return ((  UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
+}
 // UpdateTime SetIncrementDecrementHour::GetScript()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * SetIncrementDecrementHour_GetScript_m4BF635488FEF80B82E4B5C490489DD5B7BBFC146 (SetIncrementDecrementHour_t8B579D90702867DCDBEAA34EF2B2A297C27E8961 * __this, const RuntimeMethod* method);
-// !!0 UnityEngine.GameObject::GetComponent<UpdateMinute>()
-inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * GameObject_GetComponent_TisUpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3_mB8A29384D91B2BE01CBAA243B9DE5F1A43EB7BDD (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
-{
-	return ((  UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
-}
 // UpdateMinute SetIncrementDecrementMinute::GetScript()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * SetIncrementDecrementMinute_GetScript_m13096D4315F0474D8FDA239981FBFB1AB68DCDF7 (SetIncrementDecrementMinute_t6D14F629044DF91DE86E781668E472788F8E0177 * __this, const RuntimeMethod* method);
 // System.DateTime SimulateSunMoon::GetDate()
@@ -8206,8 +8206,8 @@ inline IterateThroughDay_t35AAFDA59E0C9BAB200260FB9D9244DCD4A469DA * GameObject_
 {
 	return ((  IterateThroughDay_t35AAFDA59E0C9BAB200260FB9D9244DCD4A469DA * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
 }
-// System.Void UpdateMinute::UpdateCurrentTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateCurrentTime_mA856F5171235671F63E0C79F53F4093F57BE593D (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, const RuntimeMethod* method);
+// System.Void UpdateTime::UpdateCurrentTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateTime_UpdateCurrentTime_m171EC199922061B4A396AD2E98FA8E110CB7F906 (UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * __this, const RuntimeMethod* method);
 // System.Void UpdateMinute::UpdateHour(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03 (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, bool ___increment0, const RuntimeMethod* method);
 // System.Void UpdateTime::SetTimes()
@@ -8639,49 +8639,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IterateThroughDay_SimulateDay_mACDEC4346
 		s_Il2CppMethodInitialized = true;
 	}
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * V_0 = NULL;
-	int32_t V_1 = 0;
+	float V_1 = 0.0f;
 	int32_t V_2 = 0;
 	{
 		U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055 * L_0 = (U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass3_0__ctor_mE1ECF8E9417857F56EB3E13B58440D3B5F6AFC58(L_0, /*hidden argument*/NULL);
-		// UpdateTime time_text_script = increment_hour_button.GetComponent<UpdateTime>();
+		// UpdateMinute time_text_script = increment_hour_button.GetComponent<UpdateMinute>();
 		U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055 * L_1 = L_0;
 		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_2 = __this->get_increment_hour_button_4();
 		NullCheck(L_2);
-		UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * L_3 = GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66(L_2, /*hidden argument*/GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66_RuntimeMethod_var);
+		UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * L_3 = GameObject_GetComponent_TisUpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3_mB8A29384D91B2BE01CBAA243B9DE5F1A43EB7BDD(L_2, /*hidden argument*/GameObject_GetComponent_TisUpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3_mB8A29384D91B2BE01CBAA243B9DE5F1A43EB7BDD_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->set_time_text_script_0(L_3);
 		// time_text_script.increment = true; // Ensures that you increment a day
 		U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055 * L_4 = L_1;
 		NullCheck(L_4);
-		UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * L_5 = L_4->get_time_text_script_0();
+		UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * L_5 = L_4->get_time_text_script_0();
 		NullCheck(L_5);
 		L_5->set_increment_5((bool)1);
 		// Action update_time = () => time_text_script.UpdateCurrentTime(); // Update function is a function which executes in and of
 		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_6 = (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 *)il2cpp_codegen_object_new(Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var);
 		Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760(L_6, L_4, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass3_0_U3CSimulateDayU3Eb__0_m8B13E98F430FC16513115968EF81C61673878EF6_RuntimeMethod_var), /*hidden argument*/NULL);
 		V_0 = L_6;
-		// int hour = 1;
-		V_1 = 1;
-		// int hrs_in_a_day = 24;
-		V_2 = ((int32_t)24);
+		// float interval_simulation = 1/(24 * 60 * 60);//1;
+		V_1 = (0.0f);
+		// int iterations_simulation = 24*60;//24;
+		V_2 = ((int32_t)1440);
 		// if (!run_simulation) // Simulation is atomic
 		bool L_7 = __this->get_run_simulation_5();
 		if (L_7)
 		{
-			goto IL_004c;
+			goto IL_0052;
 		}
 	}
 	{
-		// StartCoroutine(InvokeMethod(update_time, hour, hrs_in_a_day));
+		// StartCoroutine(InvokeMethod(update_time, interval_simulation, iterations_simulation));
 		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_8 = V_0;
-		int32_t L_9 = V_1;
+		float L_9 = V_1;
 		int32_t L_10 = V_2;
-		RuntimeObject* L_11 = IterateThroughDay_InvokeMethod_mE5EAF903A7F718C888903F5FB67988FA0FC78991(__this, L_8, (((float)((float)L_9))), L_10, /*hidden argument*/NULL);
+		RuntimeObject* L_11 = IterateThroughDay_InvokeMethod_mE5EAF903A7F718C888903F5FB67988FA0FC78991(__this, L_8, L_9, L_10, /*hidden argument*/NULL);
 		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_11, /*hidden argument*/NULL);
 	}
 
-IL_004c:
+IL_0052:
 	{
 		// }
 		return;
@@ -8716,9 +8716,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CSimulateDayU
 {
 	{
 		// Action update_time = () => time_text_script.UpdateCurrentTime(); // Update function is a function which executes in and of
-		UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * L_0 = __this->get_time_text_script_0();
+		UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * L_0 = __this->get_time_text_script_0();
 		NullCheck(L_0);
-		UpdateTime_UpdateCurrentTime_m171EC199922061B4A396AD2E98FA8E110CB7F906(L_0, /*hidden argument*/NULL);
+		UpdateMinute_UpdateCurrentTime_mA856F5171235671F63E0C79F53F4093F57BE593D(L_0, /*hidden argument*/NULL);
 		return;
 	}
 }

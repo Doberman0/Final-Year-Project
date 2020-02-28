@@ -34,20 +34,21 @@ public class IterateThroughDay : MonoBehaviour
     public void SimulateDay()
     {
         // Get the increment button
-        UpdateTime time_text_script = increment_hour_button.GetComponent<UpdateTime>();
+        UpdateMinute time_text_script = increment_hour_button.GetComponent<UpdateMinute>();
         time_text_script.increment = true; // Ensures that you increment a day
         Action update_time = () => time_text_script.UpdateCurrentTime(); // Update function is a function which executes in and of
                                                                          // itself thus you need to convert it into an action 
                                                                          // for the coroutine.
 
         // Constants I need - makes code clearer
-        int hour = 1;
-        int hrs_in_a_day = 24;
+        // Let's simulate a day in a minute
+        float interval_simulation = 1/(24 * 60 * 60);//1;
+        int iterations_simulation = 24*60;//24;
 
         // Running the simulation itself
         if (!run_simulation) // Simulation is atomic
         {
-            StartCoroutine(InvokeMethod(update_time, hour, hrs_in_a_day));
+            StartCoroutine(InvokeMethod(update_time, interval_simulation, iterations_simulation));
         }
         
     }

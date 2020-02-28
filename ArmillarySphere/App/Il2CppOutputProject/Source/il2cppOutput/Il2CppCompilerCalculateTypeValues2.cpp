@@ -760,8 +760,8 @@ struct MeasureFunction_tC5585E81380F4017044CE57AE21E178BAE2607AB;
 struct YogaNode_tFCB801A447DAC7A335C686ABC5941A4357102A2C;
 // UnityEngineInternal.Input.NativeUpdateCallback
 struct NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5;
-// UpdateTime
-struct UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB;
+// UpdateMinute
+struct UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3;
 // WinRT.DllModule/DllGetActivationFactory
 struct DllGetActivationFactory_tDFDF607D5B79CFF73AE0359FEB1EB1C41EE6966B;
 // WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance
@@ -1508,14 +1508,14 @@ public:
 struct  U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055  : public RuntimeObject
 {
 public:
-	// UpdateTime IterateThroughDay_<>c__DisplayClass3_0::time_text_script
-	UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * ___time_text_script_0;
+	// UpdateMinute IterateThroughDay_<>c__DisplayClass3_0::time_text_script
+	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * ___time_text_script_0;
 
 public:
 	inline static int32_t get_offset_of_time_text_script_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055, ___time_text_script_0)); }
-	inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * get_time_text_script_0() const { return ___time_text_script_0; }
-	inline UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB ** get_address_of_time_text_script_0() { return &___time_text_script_0; }
-	inline void set_time_text_script_0(UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * value)
+	inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * get_time_text_script_0() const { return ___time_text_script_0; }
+	inline UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 ** get_address_of_time_text_script_0() { return &___time_text_script_0; }
+	inline void set_time_text_script_0(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * value)
 	{
 		___time_text_script_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___time_text_script_0), (void*)value);
