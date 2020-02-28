@@ -39,14 +39,20 @@ public class UpdateLongitudeLatitude : MonoBehaviour
 
         // Updating text
         TextMesh lat_text = latitude_display.GetComponent<TextMesh>();
-        lat_text.text = ((int)lattitude_val).ToString();
+        lat_text.text = FormatLat(lattitude_val);
     }
 
-    /*public void UpdateLongitude() // Do we even want this?
-                                  // Does this even matter since we're modelling the movement of the sun
+    private string FormatLat(float lattitude_val)
     {
-        PinchSlider pinch_slider_script = latitude_slider.GetComponent<PinchSlider>();
-        UltimateSky.UltimateSky ultimate_sky_script = skylight_object.GetComponent<UltimateSky.UltimateSky>();
-        //ultimate_sky_script.SetLong((float)(pinch_slider_script.SliderValue * 180) - 90f);
-    }*/
+        string s = "";
+
+        if (0 <= lattitude_val && lattitude_val <= 9)
+        {
+            s = "  ";
+        } else if (10 <= lattitude_val || (-9 <= lattitude_val && lattitude_val <= -1))
+        {
+            s = " ";
+        }
+        return "Lattitude: " + s + ((int)lattitude_val).ToString() + "°";
+    }
 }

@@ -15,7 +15,11 @@ public class ChangeDate : MonoBehaviour
     // Interaction between the sliders
     public GameObject date_slider;
 
+    // To display the day as a number of degrees
     public GameObject date_UI;
+
+    // Do display the date 
+    [SerializeField] GameObject date_UI_display_date;
 
     public void UpdateDate() // Set date
     {
@@ -35,7 +39,11 @@ public class ChangeDate : MonoBehaviour
 
         // Updating the value on the label to match the day of the year
         TextMesh date_UI_textmesh = date_UI.GetComponent<TextMesh>();
-        date_UI_textmesh.text = ((int)date_slider_val).ToString();
+        date_UI_textmesh.text = ((int)date_slider_val).ToString() + "°";
+
+        // Updating the actual date that you can see
+        TextMesh date_UI_textmesh_cur = date_UI_display_date.GetComponent<TextMesh>();
+        date_UI_textmesh_cur.text = ("Date: " + cur_date.ToString()).Substring(0,16);
 
         // Setting the actual date for the sky to simulate
         UltimateSky.UltimateSkyCalendar ultimate_sky_script = skylight_object.GetComponent<UltimateSky.UltimateSkyCalendar>();
