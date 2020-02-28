@@ -37565,6 +37565,8 @@ public:
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___sky_7;
 	// UnityEngine.GameObject UpdateMinute::simulation_button
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___simulation_button_8;
+	// UnityEngine.GameObject UpdateMinute::hour_controller
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___hour_controller_9;
 
 public:
 	inline static int32_t get_offset_of_current_minute_4() { return static_cast<int32_t>(offsetof(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3, ___current_minute_4)); }
@@ -37608,6 +37610,15 @@ public:
 	{
 		___simulation_button_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___simulation_button_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_hour_controller_9() { return static_cast<int32_t>(offsetof(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3, ___hour_controller_9)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_hour_controller_9() const { return ___hour_controller_9; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_hour_controller_9() { return &___hour_controller_9; }
+	inline void set_hour_controller_9(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		___hour_controller_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___hour_controller_9), (void*)value);
 	}
 };
 
@@ -47163,13 +47174,14 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4603[5] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4604;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4604 = { sizeof (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3), -1, 0, 0 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4604[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4604[6] = 
 {
 	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_current_minute_4(),
 	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_increment_5(),
 	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_time_display_6(),
 	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_sky_7(),
 	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_simulation_button_8(),
+	UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3::get_offset_of_hour_controller_9(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4605;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4605 = { sizeof (UpdateText_t4FB2338AADEC717961D01BFE059974859513E406), -1, 0, 0 };

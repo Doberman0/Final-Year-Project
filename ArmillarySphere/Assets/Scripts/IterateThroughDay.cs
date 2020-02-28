@@ -6,7 +6,7 @@ using System.Threading;
 
 public class IterateThroughDay : MonoBehaviour
 {
-    // Ultimate sky object
+    // Time controller
     public GameObject increment_hour_button;
 
     // State control mechanism whereby you can only run the simulation once
@@ -17,7 +17,7 @@ public class IterateThroughDay : MonoBehaviour
      {
         // This method actually increments the time itself
         // I have decided to keep this generic in case I need to use this method later
-        // on for any other reason.
+        // or for any other reason.
 
         run_simulation = true;
 

@@ -470,6 +470,7 @@ IL2CPP_EXTERN_C const uint32_t UltimateSky__ctor_m9FE859216C34EA8B863A5009DF632D
 IL2CPP_EXTERN_C const uint32_t UpdateLongitudeLatitude_UpdateLattitude_mA36AD9E6E81B4D5EA69D0444961CD32F434FEEF6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UpdateMinute_ButtonPressed_m7187870C2A503AE936589D643200E8B7F578C973_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UpdateMinute_SetTimes_m1E0F7C192AADED5EC8699A4FCE74D78952A9EC23_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UpdateTime_ButtonPressed_mA2BC8B1389AB0E4FE992FAAE09CFAEE9F3314388_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UpdateTime_SetTimes_mD585839B2FD3B106B3C0005D81109C3ECEAAB457_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Util_calcEquationOfTime_m73BC12E1B0260450C464EDACC2B33929BE9D978C_MetadataUsageId;
@@ -5782,6 +5783,8 @@ public:
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___sky_7;
 	// UnityEngine.GameObject UpdateMinute::simulation_button
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___simulation_button_8;
+	// UnityEngine.GameObject UpdateMinute::hour_controller
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___hour_controller_9;
 
 public:
 	inline static int32_t get_offset_of_current_minute_4() { return static_cast<int32_t>(offsetof(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3, ___current_minute_4)); }
@@ -5825,6 +5828,15 @@ public:
 	{
 		___simulation_button_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___simulation_button_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_hour_controller_9() { return static_cast<int32_t>(offsetof(UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3, ___hour_controller_9)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_hour_controller_9() const { return ___hour_controller_9; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_hour_controller_9() { return &___hour_controller_9; }
+	inline void set_hour_controller_9(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		___hour_controller_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___hour_controller_9), (void*)value);
 	}
 };
 
@@ -8196,6 +8208,8 @@ inline IterateThroughDay_t35AAFDA59E0C9BAB200260FB9D9244DCD4A469DA * GameObject_
 }
 // System.Void UpdateMinute::UpdateCurrentTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateCurrentTime_mA856F5171235671F63E0C79F53F4093F57BE593D (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, const RuntimeMethod* method);
+// System.Void UpdateMinute::UpdateHour(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03 (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, bool ___increment0, const RuntimeMethod* method);
 // System.Void UpdateTime::SetTimes()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateTime_SetTimes_mD585839B2FD3B106B3C0005D81109C3ECEAAB457 (UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * __this, const RuntimeMethod* method);
 // System.Double Util::calcJD(System.Int32,System.Int32,System.Int32)
@@ -15406,49 +15420,95 @@ IL_0018:
 		return;
 	}
 }
+// System.Void UpdateMinute::UpdateHour(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03 (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, bool ___increment0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// UpdateTime hour_controller_script = hour_controller.GetComponent<UpdateTime>();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = __this->get_hour_controller_9();
+		NullCheck(L_0);
+		UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * L_1 = GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66(L_0, /*hidden argument*/GameObject_GetComponent_TisUpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB_m1623EF4F5AB36798DA7A060BA3BD0AFDEFB46A66_RuntimeMethod_var);
+		// hour_controller_script.increment = increment;
+		UpdateTime_tE5848C8F7645CF4D5CC2B8A7FAF5522C13C1C2BB * L_2 = L_1;
+		bool L_3 = ___increment0;
+		NullCheck(L_2);
+		L_2->set_increment_5(L_3);
+		// hour_controller_script.UpdateCurrentTime();
+		NullCheck(L_2);
+		UpdateTime_UpdateCurrentTime_m171EC199922061B4A396AD2E98FA8E110CB7F906(L_2, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void UpdateMinute::UpdateCurrentTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateMinute_UpdateCurrentTime_mA856F5171235671F63E0C79F53F4093F57BE593D (UpdateMinute_t4F42648023A3C99E5E9A2601316E4334AF85B2D3 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// if (increment)
 		bool L_0 = __this->get_increment_5();
 		if (!L_0)
 		{
-			goto IL_001b;
+			goto IL_002c;
 		}
 	}
 	{
 		// current_minute = (current_minute + 1) % 60;
 		int32_t L_1 = __this->get_current_minute_4();
 		__this->set_current_minute_4(((int32_t)((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)1))%(int32_t)((int32_t)60))));
-		// }
-		goto IL_003b;
-	}
-
-IL_001b:
-	{
 		// if (current_minute == 0)
 		int32_t L_2 = __this->get_current_minute_4();
 		if (L_2)
 		{
-			goto IL_002d;
+			goto IL_0055;
 		}
 	}
 	{
+		// bool increment_hr = true;
+		V_0 = (bool)1;
+		// UpdateHour(increment_hr);
+		bool L_3 = V_0;
+		UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03(__this, L_3, /*hidden argument*/NULL);
+		// }
+		goto IL_0055;
+	}
+
+IL_002c:
+	{
+		// if (current_minute == 0)
+		int32_t L_4 = __this->get_current_minute_4();
+		if (L_4)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		// bool increment_hr = false;
+		V_1 = (bool)0;
+		// UpdateHour(increment_hr);
+		bool L_5 = V_1;
+		UpdateMinute_UpdateHour_m73988B6535E85941140EFF4C500E4B85535E2A03(__this, L_5, /*hidden argument*/NULL);
 		// current_minute = 59;
 		__this->set_current_minute_4(((int32_t)59));
 		// }
-		goto IL_003b;
+		goto IL_0055;
 	}
 
-IL_002d:
+IL_0047:
 	{
 		// current_minute--;
-		int32_t L_3 = __this->get_current_minute_4();
-		__this->set_current_minute_4(((int32_t)il2cpp_codegen_subtract((int32_t)L_3, (int32_t)1)));
+		int32_t L_6 = __this->get_current_minute_4();
+		__this->set_current_minute_4(((int32_t)il2cpp_codegen_subtract((int32_t)L_6, (int32_t)1)));
 	}
 
-IL_003b:
+IL_0055:
 	{
 		// SetTimes();
 		UpdateMinute_SetTimes_m1E0F7C192AADED5EC8699A4FCE74D78952A9EC23(__this, /*hidden argument*/NULL);
