@@ -55,6 +55,6 @@ public class ChangeDate : MonoBehaviour
     {
         int dayOfYear = (int)num_of_days;
         int year = DateTime.Now.Year; // Design decision. Look to see how we can alter the year using a real armillary sphere
-        return new DateTime(year, 1, 1).AddDays(dayOfYear - 1);
+        return new DateTime(year, 1, 1).AddDays(dayOfYear);
     }
 }
