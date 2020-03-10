@@ -60,6 +60,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ChangeDate" preserve="nothing"/>
 		<type fullname="Clock" preserve="nothing"/>
+		<type fullname="EnableDisableResizeRotation" preserve="nothing"/>
 		<type fullname="IterateThroughDay" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementHour" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementMinute" preserve="nothing"/>
