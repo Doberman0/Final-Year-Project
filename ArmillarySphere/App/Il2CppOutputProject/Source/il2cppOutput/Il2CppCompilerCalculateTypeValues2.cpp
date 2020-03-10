@@ -28149,6 +28149,8 @@ public:
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___date_slider_6;
 	// UnityEngine.GameObject ChangeDate::date_UI
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___date_UI_7;
+	// UnityEngine.GameObject ChangeDate::date_UI_display_date
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___date_UI_display_date_8;
 
 public:
 	inline static int32_t get_offset_of_arm_sphere_4() { return static_cast<int32_t>(offsetof(ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3, ___arm_sphere_4)); }
@@ -28185,6 +28187,15 @@ public:
 	{
 		___date_UI_7 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___date_UI_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_date_UI_display_date_8() { return static_cast<int32_t>(offsetof(ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3, ___date_UI_display_date_8)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_date_UI_display_date_8() const { return ___date_UI_display_date_8; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_date_UI_display_date_8() { return &___date_UI_display_date_8; }
+	inline void set_date_UI_display_date_8(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		___date_UI_display_date_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___date_UI_display_date_8), (void*)value);
 	}
 };
 
@@ -47094,12 +47105,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4593[9] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4594;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4594 = { sizeof (ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3), -1, 0, 0 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4594[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4594[5] = 
 {
 	ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3::get_offset_of_arm_sphere_4(),
 	ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3::get_offset_of_skylight_object_5(),
 	ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3::get_offset_of_date_slider_6(),
 	ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3::get_offset_of_date_UI_7(),
+	ChangeDate_t1A878C36769B558F16785535B9A0A9DB395344A3::get_offset_of_date_UI_display_date_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4595;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4595 = { sizeof (IterateThroughDay_t35AAFDA59E0C9BAB200260FB9D9244DCD4A469DA), -1, 0, 0 };
