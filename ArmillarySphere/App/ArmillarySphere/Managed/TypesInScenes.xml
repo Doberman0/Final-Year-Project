@@ -59,9 +59,9 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ChangeDate" preserve="nothing"/>
-		<type fullname="Clock" preserve="nothing"/>
 		<type fullname="EnableDisableResizeRotation" preserve="nothing"/>
 		<type fullname="IterateThroughDay" preserve="nothing"/>
+		<type fullname="KeepRealtivePosition" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementHour" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementMinute" preserve="nothing"/>
 		<type fullname="TurnOnOffTutorial" preserve="nothing"/>
@@ -92,7 +92,6 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Interactable" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ManipulationHandler" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PinchSlider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderSounds" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.States" preserve="nothing"/>
