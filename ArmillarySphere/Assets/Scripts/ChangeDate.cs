@@ -30,8 +30,8 @@ public class ChangeDate : MonoBehaviour
         // Rotating the armillary sphere
         arm_sphere.transform.localEulerAngles = new Vector3(
             arm_sphere.transform.localEulerAngles[0],
-            date_slider_val,
-            arm_sphere.transform.localEulerAngles[2]
+            arm_sphere.transform.localEulerAngles[1],
+            -date_slider_val
             );
 
         // Get the date from the slider

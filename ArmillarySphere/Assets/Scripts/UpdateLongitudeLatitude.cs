@@ -9,6 +9,9 @@ public class UpdateLongitudeLatitude : MonoBehaviour
     // What we need to rotate. i.e. the armillary sphere itself
     [SerializeField] GameObject arm_sphere;
 
+    // Rotate around the earth in the armillary sphere
+    [SerializeField] GameObject arm_sphere_earth;
+
     // Skylight 
     public GameObject skylight_object;
     
@@ -29,9 +32,9 @@ public class UpdateLongitudeLatitude : MonoBehaviour
 
         // Rotating the armillary sphere
         arm_sphere.transform.localEulerAngles = new Vector3(
-            arm_sphere.transform.localEulerAngles[0],
+            lattitude_val,
             arm_sphere.transform.localEulerAngles[1],
-            lattitude_val
+            arm_sphere.transform.localEulerAngles[2]
             );
 
         // Updating the longitude of the skybox

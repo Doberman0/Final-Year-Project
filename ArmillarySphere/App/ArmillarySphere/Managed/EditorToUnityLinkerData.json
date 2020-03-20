@@ -1034,13 +1034,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.HoverLight",
             "moduleName": "",
             "usedInScenes": []
