@@ -133,6 +133,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierInertia" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.HoverLight" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider" preserve="nothing"/>
