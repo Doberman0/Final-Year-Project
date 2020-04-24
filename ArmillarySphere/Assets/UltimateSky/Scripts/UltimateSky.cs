@@ -153,7 +153,7 @@ namespace UltimateSky {
 			sun.rotation = Quaternion.identity;
 			sun.LookAt (-angle);
 			float sunelevation = Mathf.Clamp(el_az.x / (Mathf.PI * 0.5f), -1.0f, 1.0f);
-			lightphase = (1.0f+sunelevation) * 0.5f;
+			lightphase = (1.0f+sunelevation) * 0.5f; // Normalize it between 0 and 1
 			if (lightphase < 0.5f) {
 				lightphase = lightphase * (lightphase+0.5f);
 			}

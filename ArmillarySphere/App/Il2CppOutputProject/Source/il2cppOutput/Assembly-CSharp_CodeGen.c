@@ -64,10 +64,10 @@ extern void U3CInvokeMethodU3Ed__2_System_Collections_IEnumerator_get_Current_mB
 extern void U3CU3Ec__DisplayClass3_0__ctor_mE1ECF8E9417857F56EB3E13B58440D3B5F6AFC58 ();
 // 0x00000016 System.Void IterateThroughDay_<>c__DisplayClass3_0::<SimulateDay>b__0()
 extern void U3CU3Ec__DisplayClass3_0_U3CSimulateDayU3Eb__0_m8B13E98F430FC16513115968EF81C61673878EF6 ();
-// 0x00000017 System.Void KeepRealtivePosition::Update()
-extern void KeepRealtivePosition_Update_mD04E2C2D07D53105BF010140D7F04AF5990B99B0 ();
-// 0x00000018 System.Void KeepRealtivePosition::.ctor()
-extern void KeepRealtivePosition__ctor_mD241347AEDEEEFE544394331CAA3B14CC738F2F2 ();
+// 0x00000017 System.Void KeepRelativePosition::Update()
+extern void KeepRelativePosition_Update_mD800E02AA8FD57736D216A89F5A285565AB55113 ();
+// 0x00000018 System.Void KeepRelativePosition::.ctor()
+extern void KeepRelativePosition__ctor_mB9A9A7200868EC3C26B4DD774BA5F6890D4BFF6D ();
 // 0x00000019 System.Void ReverseNormals::Start()
 extern void ReverseNormals_Start_m8DDB738F26740CE72887FEC2D398B536091BE79D ();
 // 0x0000001A System.Void ReverseNormals::.ctor()
@@ -110,8 +110,8 @@ extern void SimulateSunMoon__cctor_mB5FC94BA43EB513A37BAD5657C04353227C6EAB9 ();
 extern void TurnOnOffTutorial_ToggleVideo_m1E349D6FFE86CCC1FBC394A92DA3A30998F414A7 ();
 // 0x0000002D System.Void TurnOnOffTutorial::.ctor()
 extern void TurnOnOffTutorial__ctor_m05E5BF1FCC0F247F727037E9AE77F28A44718933 ();
-// 0x0000002E System.Void UpdateLongitudeLatitude::UpdateLattitude()
-extern void UpdateLongitudeLatitude_UpdateLattitude_mA36AD9E6E81B4D5EA69D0444961CD32F434FEEF6 ();
+// 0x0000002E System.Void UpdateLongitudeLatitude::UpdateLatitude()
+extern void UpdateLongitudeLatitude_UpdateLatitude_mE854171FC584FCC796058A8EA2E201F9EDF04F8F ();
 // 0x0000002F System.String UpdateLongitudeLatitude::FormatLat(System.Single)
 extern void UpdateLongitudeLatitude_FormatLat_mB870516BE6AD09EF8613444E40C2FB6F7F17534E ();
 // 0x00000030 System.Void UpdateLongitudeLatitude::.ctor()
@@ -366,8 +366,8 @@ static Il2CppMethodPointer s_methodPointers[161] =
 	U3CInvokeMethodU3Ed__2_System_Collections_IEnumerator_get_Current_mB6F36E55883144F98B5E846B58A891756E0B0101,
 	U3CU3Ec__DisplayClass3_0__ctor_mE1ECF8E9417857F56EB3E13B58440D3B5F6AFC58,
 	U3CU3Ec__DisplayClass3_0_U3CSimulateDayU3Eb__0_m8B13E98F430FC16513115968EF81C61673878EF6,
-	KeepRealtivePosition_Update_mD04E2C2D07D53105BF010140D7F04AF5990B99B0,
-	KeepRealtivePosition__ctor_mD241347AEDEEEFE544394331CAA3B14CC738F2F2,
+	KeepRelativePosition_Update_mD800E02AA8FD57736D216A89F5A285565AB55113,
+	KeepRelativePosition__ctor_mB9A9A7200868EC3C26B4DD774BA5F6890D4BFF6D,
 	ReverseNormals_Start_m8DDB738F26740CE72887FEC2D398B536091BE79D,
 	ReverseNormals__ctor_m494F08062FB3A431A493843A4235227BA853FD08,
 	SetIncrementDecrementHour_GetScript_m4BF635488FEF80B82E4B5C490489DD5B7BBFC146,
@@ -389,7 +389,7 @@ static Il2CppMethodPointer s_methodPointers[161] =
 	SimulateSunMoon__cctor_mB5FC94BA43EB513A37BAD5657C04353227C6EAB9,
 	TurnOnOffTutorial_ToggleVideo_m1E349D6FFE86CCC1FBC394A92DA3A30998F414A7,
 	TurnOnOffTutorial__ctor_m05E5BF1FCC0F247F727037E9AE77F28A44718933,
-	UpdateLongitudeLatitude_UpdateLattitude_mA36AD9E6E81B4D5EA69D0444961CD32F434FEEF6,
+	UpdateLongitudeLatitude_UpdateLatitude_mE854171FC584FCC796058A8EA2E201F9EDF04F8F,
 	UpdateLongitudeLatitude_FormatLat_mB870516BE6AD09EF8613444E40C2FB6F7F17534E,
 	UpdateLongitudeLatitude__ctor_m3D8D5D9C396C4D7189660AA476389AB6CE017B09,
 	UpdateMinute_Start_mFEF85FC886E213A621E688C22E32298F6D08CBF1,

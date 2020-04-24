@@ -614,7 +614,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "KeepRealtivePosition",
+            "fullManagedTypeName": "KeepRelativePosition",
             "moduleName": "",
             "usedInScenes": []
         },

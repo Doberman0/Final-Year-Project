@@ -43,7 +43,8 @@ public class ChangeDate : MonoBehaviour
 
         // Updating the actual date that you can see
         TextMesh date_UI_textmesh_cur = date_UI_display_date.GetComponent<TextMesh>();
-        date_UI_textmesh_cur.text = ("Date: " + cur_date.ToString()).Substring(0,16);
+        //date_UI_textmesh_cur.text = ("Date: " + cur_date.ToString()).Substring(0,15);
+        date_UI_textmesh_cur.text = "Date: " + cur_date.Day.ToString() + "/" + cur_date.Month.ToString() + "/" + cur_date.Year.ToString();
 
         // Setting the actual date for the sky to simulate
         UltimateSky.UltimateSkyCalendar ultimate_sky_script = skylight_object.GetComponent<UltimateSky.UltimateSkyCalendar>();
@@ -54,7 +55,7 @@ public class ChangeDate : MonoBehaviour
     private DateTime GetDate(float num_of_days)
     {
         int dayOfYear = (int)num_of_days;
-        int year = DateTime.Now.Year; // Design decision. Look to see how we can alter the year using a real armillary sphere
+        int year = DateTime.Now.Year; // Design decision. 
         return new DateTime(year, 1, 1).AddDays(dayOfYear);
     }
 }

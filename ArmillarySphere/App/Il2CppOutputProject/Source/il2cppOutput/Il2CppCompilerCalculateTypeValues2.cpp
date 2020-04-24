@@ -28370,25 +28370,25 @@ public:
 };
 
 
-// KeepRealtivePosition
-struct  KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// KeepRelativePosition
+struct  KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
 {
 public:
-	// UnityEngine.GameObject KeepRealtivePosition::game_object_to_keep_relative_to
+	// UnityEngine.GameObject KeepRelativePosition::game_object_to_keep_relative_to
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___game_object_to_keep_relative_to_4;
-	// UnityEngine.GameObject KeepRealtivePosition::armillary_sphere
+	// UnityEngine.GameObject KeepRelativePosition::armillary_sphere
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___armillary_sphere_5;
-	// UnityEngine.GameObject KeepRealtivePosition::my_game_object
+	// UnityEngine.GameObject KeepRelativePosition::my_game_object
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___my_game_object_6;
-	// System.Single KeepRealtivePosition::x_displacement
+	// System.Single KeepRelativePosition::x_displacement
 	float ___x_displacement_7;
-	// System.Single KeepRealtivePosition::y_displacement
+	// System.Single KeepRelativePosition::y_displacement
 	float ___y_displacement_8;
-	// System.Single KeepRealtivePosition::z_displacement
+	// System.Single KeepRelativePosition::z_displacement
 	float ___z_displacement_9;
 
 public:
-	inline static int32_t get_offset_of_game_object_to_keep_relative_to_4() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___game_object_to_keep_relative_to_4)); }
+	inline static int32_t get_offset_of_game_object_to_keep_relative_to_4() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___game_object_to_keep_relative_to_4)); }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_game_object_to_keep_relative_to_4() const { return ___game_object_to_keep_relative_to_4; }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_game_object_to_keep_relative_to_4() { return &___game_object_to_keep_relative_to_4; }
 	inline void set_game_object_to_keep_relative_to_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
@@ -28397,7 +28397,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___game_object_to_keep_relative_to_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_armillary_sphere_5() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___armillary_sphere_5)); }
+	inline static int32_t get_offset_of_armillary_sphere_5() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___armillary_sphere_5)); }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_armillary_sphere_5() const { return ___armillary_sphere_5; }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_armillary_sphere_5() { return &___armillary_sphere_5; }
 	inline void set_armillary_sphere_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
@@ -28406,7 +28406,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___armillary_sphere_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_my_game_object_6() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___my_game_object_6)); }
+	inline static int32_t get_offset_of_my_game_object_6() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___my_game_object_6)); }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_my_game_object_6() const { return ___my_game_object_6; }
 	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_my_game_object_6() { return &___my_game_object_6; }
 	inline void set_my_game_object_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
@@ -28415,7 +28415,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___my_game_object_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_x_displacement_7() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___x_displacement_7)); }
+	inline static int32_t get_offset_of_x_displacement_7() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___x_displacement_7)); }
 	inline float get_x_displacement_7() const { return ___x_displacement_7; }
 	inline float* get_address_of_x_displacement_7() { return &___x_displacement_7; }
 	inline void set_x_displacement_7(float value)
@@ -28423,7 +28423,7 @@ public:
 		___x_displacement_7 = value;
 	}
 
-	inline static int32_t get_offset_of_y_displacement_8() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___y_displacement_8)); }
+	inline static int32_t get_offset_of_y_displacement_8() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___y_displacement_8)); }
 	inline float get_y_displacement_8() const { return ___y_displacement_8; }
 	inline float* get_address_of_y_displacement_8() { return &___y_displacement_8; }
 	inline void set_y_displacement_8(float value)
@@ -28431,7 +28431,7 @@ public:
 		___y_displacement_8 = value;
 	}
 
-	inline static int32_t get_offset_of_z_displacement_9() { return static_cast<int32_t>(offsetof(KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF, ___z_displacement_9)); }
+	inline static int32_t get_offset_of_z_displacement_9() { return static_cast<int32_t>(offsetof(KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9, ___z_displacement_9)); }
 	inline float get_z_displacement_9() const { return ___z_displacement_9; }
 	inline float* get_address_of_z_displacement_9() { return &___z_displacement_9; }
 	inline void set_z_displacement_9(float value)
@@ -47269,15 +47269,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4598[1] =
 	U3CU3Ec__DisplayClass3_0_t989F8913D89C3B470654C0A345794C052CD07055::get_offset_of_time_text_script_0(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4599;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize4599 = { sizeof (KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize4599 = { sizeof (KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9), -1, 0, 0 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4599[6] = 
 {
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_game_object_to_keep_relative_to_4(),
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_armillary_sphere_5(),
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_my_game_object_6(),
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_x_displacement_7(),
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_y_displacement_8(),
-	KeepRealtivePosition_t1A1F909CDD14EE030AADFD215411AED5CABF3FCF::get_offset_of_z_displacement_9(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_game_object_to_keep_relative_to_4(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_armillary_sphere_5(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_my_game_object_6(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_x_displacement_7(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_y_displacement_8(),
+	KeepRelativePosition_t0A8F2A024EB2C0891C21C79405CBBF9C31FED3C9::get_offset_of_z_displacement_9(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4600;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4600 = { sizeof (ReverseNormals_t2DB39B663B4E95C028BC85199FE3E853D0CA4FD0), -1, 0, 0 };

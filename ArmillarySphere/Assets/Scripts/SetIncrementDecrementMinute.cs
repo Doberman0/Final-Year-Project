@@ -6,6 +6,10 @@ public class SetIncrementDecrementMinute : MonoBehaviour
 {
     [SerializeField] GameObject time_controller;
 
+    [SerializeField] GameObject simulate_button;
+
+    //private IterateThroughDay simulate_day_script;
+
     private UpdateMinute GetScript()
     {
         // Gets the script needed to increment/decrement the clock
@@ -15,13 +19,19 @@ public class SetIncrementDecrementMinute : MonoBehaviour
 
     public void SetToDecrement()
     {
-        UpdateMinute time_controller_script = GetScript();
-        time_controller_script.increment = false;
+        if (!simulate_button.GetComponent<IterateThroughDay>().run_simulation)
+        {
+            UpdateMinute time_controller_script = GetScript();
+            time_controller_script.increment = false;
+        }
     }
 
     public void SetToIncrement()
     {
-        UpdateMinute time_controller_script = GetScript();
-        time_controller_script.increment = true;
+        if (!simulate_button.GetComponent<IterateThroughDay>().run_simulation)
+        {
+            UpdateMinute time_controller_script = GetScript();
+            time_controller_script.increment = true;
+        }
     }
 }

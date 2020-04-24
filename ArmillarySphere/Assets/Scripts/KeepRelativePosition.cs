@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeepRealtivePosition : MonoBehaviour
+public class KeepRelativePosition : MonoBehaviour
 {
     [SerializeField] GameObject game_object_to_keep_relative_to;
 
@@ -22,9 +22,6 @@ public class KeepRealtivePosition : MonoBehaviour
         BoxCollider bounding_box = game_object_to_keep_relative_to.GetComponent<BoxCollider>();
         if (bounding_box) 
         {
-            //print("Bounding box detected");
-            //Transform t = bounding_box.transform;
-            //Debug.Log((t.rotation.x, t.rotation.y, t.rotation.z));
 
             // Altering the button's location
             my_game_object.transform.position = new Vector3( 

@@ -61,7 +61,7 @@
 		<type fullname="ChangeDate" preserve="nothing"/>
 		<type fullname="EnableDisableResizeRotation" preserve="nothing"/>
 		<type fullname="IterateThroughDay" preserve="nothing"/>
-		<type fullname="KeepRealtivePosition" preserve="nothing"/>
+		<type fullname="KeepRelativePosition" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementHour" preserve="nothing"/>
 		<type fullname="SetIncrementDecrementMinute" preserve="nothing"/>
 		<type fullname="TurnOnOffTutorial" preserve="nothing"/>
