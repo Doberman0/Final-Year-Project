@@ -25,7 +25,10 @@ public class ChangeDate : MonoBehaviour
     {
         // Extracting value from slider (you can only rotate by 360 degrees)
         PinchSlider pinch_slider_script = date_slider.GetComponent<PinchSlider>();
-        float date_slider_val = (float)(365f*pinch_slider_script.SliderValue);
+        // Scales slider value for rotation as you can only rotate 360 degrees
+        float date_slider_val = (float)(360f*pinch_slider_script.SliderValue);
+        // Scales slider value for the date as a year has 365 days typically
+        float date_slider_val_day = (float)(365f * pinch_slider_script.SliderValue); 
 
         // Rotating the armillary sphere
         arm_sphere.transform.localEulerAngles = new Vector3(
@@ -35,7 +38,7 @@ public class ChangeDate : MonoBehaviour
             );
 
         // Get the date from the slider
-        DateTime cur_date = GetDate(date_slider_val);
+        DateTime cur_date = GetDate(date_slider_val_day);
 
         // Updating the value on the label to match the day of the year
         TextMesh date_UI_textmesh = date_UI.GetComponent<TextMesh>();
