@@ -31,11 +31,11 @@ public class ChangeDate : MonoBehaviour
         float date_slider_val_day = (float)(365f * pinch_slider_script.SliderValue); 
 
         // Rotating the armillary sphere
-        arm_sphere.transform.localEulerAngles = new Vector3(
-            arm_sphere.transform.localEulerAngles[0],
-            arm_sphere.transform.localEulerAngles[1],
-            -date_slider_val
-            );
+        //arm_sphere.transform.localEulerAngles = new Vector3(
+        //    arm_sphere.transform.localEulerAngles[0],
+        //    arm_sphere.transform.localEulerAngles[1],
+        //    -date_slider_val
+        //    );
 
         // Get the date from the slider
         DateTime cur_date = GetDate(date_slider_val_day);
